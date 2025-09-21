@@ -188,14 +188,27 @@ th, td {
 }
 
 .card h3 {
-  margin: 1.3rem;
-  font-size: 0.5rem;
+  font-size: 1.4rem;        /* make titles bigger */
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+  line-height: 1.3;
+  color: #f1f5f9;           /* light color for readability */
 }
 
+/* Body text in cards */
 .card p {
-  margin: 0.35rem 0;
-  line-height: 1.5;
-} 
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0.4rem 0;
+  color: #d1d5db;
+}
+
+/* Meta/info text */
+.card .meta {
+  font-size: 0.95rem;
+  color: #9ca3af;
+}
+
 /* compact button for links (resume etc.) */
 .btn-sm {
   display:inline-block; padding:.45rem .85rem; border-radius:.5rem;
