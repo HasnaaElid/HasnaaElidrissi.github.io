@@ -66,26 +66,26 @@
   </div>
 </section>
 
-<section class="section tile">
-  <h2 id="skills">🔹 Skills</h2>
-  <ul>
-    <li><strong>Programming & Tools:</strong> Python, SQL, Spark/PySpark, R, Git/GitHub</li>
-    <li><strong>Data Analysis:</strong> data wrangling, EDA, statistical testing</li>
-    <li><strong>Machine Learning:</strong> supervised/unsupervised, evaluation, imbalance handling</li>
-    <li><strong>Big Data:</strong> PYSpark, Spark SQL, Hive, HDFS</li>
-    <li><strong>Visualization & Reporting:</strong> Tableau, Power BI, Matplotlib, Plotly</li>
-    <li><strong>Communication:</strong> clear reporting, presentations, data storytelling</li>
-  </ul>
-  [Download my resume](HasnaaElidrissi.pdf){:.btn-sm}
-</section>
+<section class="section tile" markdown="1">
+  
+## 🔹 Skills {#skills}
+- **Programming & Tools:** Python, SQL, Spark/PySpark, R, Git/GitHub  
+- **Data Analysis:** Data wrangling, exploratory data analysis (EDA), statistical testing 
+- **Machine Learning:** Supervised & unsupervised learning, model evaluation, imbalanced data handling  
+- **Big Data:** PySpark, Spark SQL, Hive, HDFS  
+- **Visualization:** Tableau, Power BI, Matplotlib, Plotly  
+- **Communication:** Reporting, presentations, data storytelling  
 
-<section class="section tile">
-  <h2 id="contact">🔹 Contact</h2>
-  <p>📧 <a href="elidrissihasnaa6@gmail.com">elidrissihasnaa6@gmail.com</a><br>
-     💼 <a href="https://www.linkedin.com/in/hasnaa-elidrissi</a><br>
-     💻 <a href="https://github.com/Hasnaaelid</a><br>
-      
-  </p>
+---
+
+## 🔹 Contact {#contact}
+📧 Email: [elidrissihasnaa6@gmail.com](mailto:elidrissihasnaa6@gmail.com)  
+💼 LinkedIn: [www.linkedin.com/in/hasnaa-elidrissi](https://www.linkedin.com/in/hasnaa-elidrissi)  
+💻 GitHub: [github.com/Hasnaaelid](https://github.com/Hasnaaelid)  
+📃 [Download my resume](){:.btn-sm}
+
+---
+
 </section>
 
 </div>
