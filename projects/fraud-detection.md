@@ -36,11 +36,9 @@ permalink: /projects/fraud-detection/
 | Precision / false positives | Tuned via thresholding for ops-friendly rates |
 | Overall | Strong AUC-ROC; balanced F1 after resampling & ensembling |
 
-**Visuals**
-- Confusion matrix  
-  ![Confusion Matrix]({{ site.baseurl }}/assets/img/projects/fraud-detection/cm.png)
-- PR/ROC curves  
-  ![ROC & PR]({{ site.baseurl }}/assets/img/projects/fraud-detection/roc_pr.png)
+## Reproducibility
+- 📓 [View the Notebook]({{ site.baseurl }}/assets/notebooks/fraud-detection.ipynb)
+- 📑 [Download Slides (PDF)]({{ site.baseurl }}/assets/docs/fraud-detection-slides.pdf)
 
 ## Deployment
 - **Real-time scoring** in the transaction stream; high-risk auto-flagged for review/hold, low-risk pass-through
