@@ -1,4 +1,4 @@
-# Welcome to My Portfolio 
+
 
 Hi, I’m **Hasnaa Elidrissi** a **Data Analyst** pursuing my masters in **Data Science**🎓 passionate about solving problems with data.  
 I specialize in **data analysis, machine learning, big data, and data storytelling** transforming raw data into insights and communicating results with clarity.
