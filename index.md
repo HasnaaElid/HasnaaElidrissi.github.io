@@ -1,5 +1,5 @@
 
-**[Home](.) · [About](#about) . [Projects](#projects) · [Skills](#skills) · [Contact](#contact)**
+**[Home](.) . [Projects](#projects) · [Skills](#skills) · [Contact](#contact)**
 
 
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 🔹 About Me {#about}
+## 🔹 About Me 
 - Academic background in **Data Analytics & Data Science**  
 - Professional experience in **fraud detection and risk analytics**  
 - Skilled in **Python, SQL, Spark/PySpark, data visualization, and machine learning**  
@@ -76,15 +76,16 @@
     <li><strong>Visualization & Reporting:</strong> Tableau, Power BI, Matplotlib, Plotly</li>
     <li><strong>Communication:</strong> clear reporting, presentations, data storytelling</li>
   </ul>
-  
+  [Download my resume](HasnaaElidrissi.pdf){:.btn-sm}
 </section>
 
 <section class="section tile">
   <h2 id="contact">🔹 Contact</h2>
   <p>📧 <a href="elidrissihasnaa6@gmail.com">elidrissihasnaa6@gmail.com</a><br>
      💼 <a href="https://www.linkedin.com/in/hasnaa-elidrissi</a><br>
-     💻 <a href="https://github.com/Hasnaaelid</a></p>
-      [Download my resume](HasnaaElidrissi.pdf){:.btn-sm}
+     💻 <a href="https://github.com/Hasnaaelid</a><br>
+      
+  </p>
 </section>
 
 </div>
