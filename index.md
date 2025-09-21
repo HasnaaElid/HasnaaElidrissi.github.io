@@ -1,4 +1,4 @@
-**[Home](/)** · **[Projects](/#-featured-projects)** · **[Skills](/#-skills)** · **[Contact](/#-contact)**
+**[Home](/)** · **[Projects](/#projects)** · **[Skills](/#skills)** · **[Contact](/#contact)**
 
 
 
@@ -76,7 +76,7 @@ Designed a high-level big data architecture for real-time fraud detection and AM
 📧 Email: [elidrissihasnaa6@gmail.com](mailto:elidrissihasnaa6@gmail.com)  
 💼 LinkedIn: [www.linkedin.com/in/hasnaa-elidrissi](https://www.linkedin.com/in/hasnaa-elidrissi)  
 💻 GitHub: [github.com/Hasnaaelid](https://github.com/Hasnaaelid)  
-📃 [Download my resume](){:.btn}
+📃 [Download my resume](){:.btn-sm}
 
 ---
 
