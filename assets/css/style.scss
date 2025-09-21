@@ -208,6 +208,46 @@ th, td {
   margin: 0.4rem 0;               /* space between items */
   line-height: 1.5;               /* improve readability */
 }
+/* ===== Hero banner ===== */
+.hero {
+  position: relative;
+  min-height: 320px;                 /* adjust height */
+  background: url("/assets/img/hero.jpg") center/cover no-repeat;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+.hero__overlay {
+  position: absolute; inset: 0;
+  /* dark gradient for readability */
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgba(102,224,255,.15), transparent 60%),
+    radial-gradient(1000px 400px at 90% 0%, rgba(138,125,255,.12), transparent 60%),
+    linear-gradient(180deg, rgba(8,11,16,.55), rgba(8,11,16,.75));
+}
+
+.hero__content {
+  position: relative; z-index: 1;
+  max-width: 1000px; margin: 0 auto;
+  padding: 48px 16px;                /* spacing around text */
+  text-align: center;
+}
+
+.hero__content h1 {
+  margin: 0 0 .4rem;
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #e7e9ee;
+}
+
+.hero__content p {
+  margin: .35rem 0;
+  color: #cbd2dc;
+  font-size: 1.05rem;
+}
+
+/* If the theme header title is competing, hide it */
+.page-header .project-name,
+.page-header .project-tagline { display: none; }
 
 // /* Footer */
 // .site-footer-owner, .site-footer-credits {
