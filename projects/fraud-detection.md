@@ -37,8 +37,8 @@ permalink: /projects/fraud-detection/
 | Overall | Strong AUC-ROC; balanced F1 after resampling & ensembling |
 
 ## Reproducibility
-- 📓 [View the Notebook]({{ site.baseurl }}/assets/notebooks/fraud-detection.ipynb)
-- 📑 [Download Slides (PDF)]({{ site.baseurl }}/assets/docs/fraud-detection-slides.pdf)
+- 📓 [View the Notebook]({{ site.baseurl }}/assets/notebooks/fraud_detection.ipynb)
+- 📑 [Download Slides (PDF)]({{ site.baseurl }}/assets/docs/fraud-detection.pdf)
 
 ## Deployment
 - **Real-time scoring** in the transaction stream; high-risk auto-flagged for review/hold, low-risk pass-through
