@@ -1,5 +1,5 @@
 
-**[Home](.) . [Projects](#projects) · [Skills](#skills) · [Contact](#contact)**
+**[Contact](#contact)**
 
 
 <section class="hero">
