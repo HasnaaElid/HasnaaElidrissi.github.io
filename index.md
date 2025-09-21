@@ -28,12 +28,13 @@
 ---
 
 <section class="section tile" id="projects" markdown="1">
-## 🔹 Featured Projects
+  
+<h2>🔹 Featured Projects</h2>
 
 <div class="cards">
 
   <article class="card" markdown="1">
-  ### From Victim to Defender: Predictive Analytics for Fraud Detection
+ <h3> From Victim to Defender: Predictive Analytics for Fraud Detection</h3>
   <div class="badges">
     <span class="badge">ML</span>
     <span class="badge">Imbalanced Data</span>
@@ -49,7 +50,7 @@
   </article>
 
   <article class="card" markdown="1">
-  ### Early Warning NLP for Fraud Signals *(in progress)*
+  <h3> Early Warning NLP for Fraud Signals </h3>
   <div class="badges">
     <span class="badge">Text Mining</span>
     <span class="badge">Keyword/Topic Clusters</span>
@@ -64,7 +65,7 @@
   </article>
 
   <article class="card" markdown="1">
-  ### Sentiment Analysis of Amazon Reviews
+  <h3> Sentiment Analysis of Amazon Reviews</h3>
   <div class="badges">
     <span class="badge">NLP</span>
     <span class="badge">Classification</span>
@@ -79,7 +80,7 @@
   </article>
 
   <article class="card" markdown="1">
-  ### Childcare Affordability & Workforce Participation
+  <h3> Childcare Affordability & Workforce Participation</h3>
   <div class="badges">
     <span class="badge">EDA</span>
     <span class="badge">Data Storytelling</span>
@@ -93,7 +94,7 @@
   </article>
 
   <article class="card" markdown="1">
-  ### Real-Time Fraud Detection & AML Architecture
+  <h3> Real-Time Fraud Detection & AML Architecture</h3>
   <div class="badges">
     <span class="badge">Architecture</span>
     <span class="badge">Spark</span>
@@ -109,7 +110,6 @@
 
 </div>
 </section>
-
 
 <section class="section tile" markdown="1">
   
@@ -132,5 +132,3 @@
 ---
 
 </section>
-
-</div>
