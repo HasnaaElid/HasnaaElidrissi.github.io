@@ -3,8 +3,6 @@
 
 
 
-<img width="1460" height="546" alt="image" src="https://github.com/user-attachments/assets/8df3bf1f-1c7e-4e35-9ef6-229851e4f593" />
-
 <section class="section tile">
   <h1 id="about"> Welcome to  My Portfolio </h1>
   <p>
@@ -33,31 +31,37 @@
     <article class="card">
       <h3>From Victim to Defender: Predictive Analytics for Fraud Detection</h3>
       <p>Applied ML to detect fraudulent transactions in an imbalanced dataset.</p>
-      <p class="meta"><strong>EDA:</strong> class imbalance (0.13%), features · <strong>Methods:</strong> ML models · <strong>Result:</strong> high precision/recall trade-off.</p>
+      <p class="meta"><strong>EDA:</strong> class imbalance (0.13%), features ·
+      <strong>Methods:</strong> ML models · <strong>Result:</strong> high precision/recall trade-off.</p>
     </article>
 
     <article class="card">
       <h3>Early Warning NLP for Fraud Signals <em>(in progress)</em></h3>
       <p>NLP pipeline to surface early indicators from memos/complaints.</p>
-      <p class="meta"><strong>Findings:</strong> clusters of terms linked to disputes · <strong>Next:</strong> larger data, interpretability, multimodal.</p>
+      <p class="meta"><strong>Findings:</strong> clusters of terms linked to disputes ·
+      <strong>Next:</strong> larger data, interpretability, multimodal.</p>
     </article>
 
     <article class="card">
       <h3>Sentiment Analysis of Amazon Reviews</h3>
       <p>Predicted ratings from text + metadata; extracted actionable insights.</p>
-      <p class="meta"><strong>EDA:</strong> rating skew, key terms · <strong>Methods:</strong> classic ML · <strong>Outcome:</strong> strong predictive signals.</p>
+      <p class="meta"><strong>EDA:</strong> rating skew, key terms · 
+      <strong>Methods:</strong> classic ML · 
+      <strong>Outcome:</strong> strong predictive signals.</p>
     </article>
 
     <article class="card">
       <h3>Childcare Affordability & Workforce Participation</h3>
       <p>Storytelling with affordability metrics and participation trends.</p>
-      <p class="meta"><strong>Tools:</strong> dashboards, analysis · <strong>Impact:</strong> policy-oriented recommendations.</p>
+      <p class="meta"><strong>Tools:</strong> dashboards, analysis ·
+      <strong>Impact:</strong> policy-oriented recommendations.</p>
     </article>
 
     <article class="card">
       <h3>Real-Time Fraud Detection & AML Architecture</h3>
       <p>Designed scalable ingestion and detection pipelines for banking.</p>
-      <p class="meta"><strong>Stack:</strong> Spark, Kafka, Hive, NiFi · <strong>Focus:</strong> compliance + scale.</p>
+      <p class="meta"><strong>Stack:</strong> Spark, Kafka, Hive, NiFi ·
+      <strong>Focus:</strong> compliance + scale.</p>
     </article>
 
   </div>
