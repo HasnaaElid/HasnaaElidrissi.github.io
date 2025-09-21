@@ -289,6 +289,104 @@ th, td {
 .page-header .project-name,
 .page-header .project-tagline { display: none; }
 
+/* ===== Layout: wider container & comfy grid ===== */
+.container {
+  max-width: 1440px;     /* a bit wider */
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.cards {                 /* bigger gaps so cards breathe */
+  display: grid;
+  gap: 36px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 900px)  { .cards { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1400px) { .cards { grid-template-columns: 1fr 1fr; } }
+
+/* ===== Card: roomy, no clipping ===== */
+.card {
+  background: #0f141b;
+  border: 1px solid #1c2432;
+  border-radius: 14px;
+  padding: 26px 28px;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+  overflow: visible;          /* make sure nothing gets clipped */
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0,0,0,.4);
+  border-color: #2a374d;
+}
+
+.card h3 {
+  font-size: 1.5rem;          /* more readable titles */
+  font-weight: 750;
+  margin: 0 0 .65rem;
+  line-height: 1.3;
+  color: #f1f5f9;
+}
+.card p {                      /* body copy */
+  font-size: 1.02rem;
+  line-height: 1.6;
+  margin: .45rem 0 .6rem;
+  color: #d1d5db;
+}
+
+/* ===== Skill badges row ===== */
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: .35rem 0 .6rem;
+}
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: .85rem;
+  line-height: 1.1;
+  color: #aeeaff;                     /* text */
+  background: rgba(102,224,255,0.12); /* soft cyan chip */
+  border: 1px solid rgba(102,224,255,0.28);
+  white-space: nowrap;
+}
+
+/* Alternate badge (violet) if you want variety */
+.badge.alt {
+  color: #c9c3ff;
+  background: rgba(138,125,255,0.12);
+  border-color: rgba(138,125,255,0.28);
+}
+
+/* ===== Outcome / Impact list ===== */
+.outcome {
+  margin: .5rem 0 0.2rem;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+.outcome li {
+  margin: .3rem 0;
+  line-height: 1.55;
+  color: #cbd2dc;
+}
+
+/* Make the Projects tile itself stand out a bit */
+#projects.tile {
+  background: #131821;
+  border: 1px solid #2a374d;
+}
+#projects.tile > h2 {
+  color: #66e0ff;
+}
+
+/* Ensure tiles have consistent spacing */
+.tile {
+  border-radius: 14px;
+  padding: 1.35rem 1.2rem;
+}
+
+
 // /* Footer */
 // .site-footer-owner, .site-footer-credits {
 //   color: var(--muted);
