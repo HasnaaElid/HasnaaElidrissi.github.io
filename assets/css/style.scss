@@ -126,28 +126,66 @@ th, td {
 /* grid for project cards */
 .cards {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
+  // grid-template-columns: 1fr;
+  gap: 24px;
 }
-@media (min-width: 640px) { .cards { grid-template-columns: 1fr 1fr; } }
-@media (min-width: 980px) { .cards { grid-template-columns: 1fr 1fr 1fr; } }
+// @media (min-width: 640px) { .cards { grid-template-columns: 1fr 1fr; } }
+// @media (min-width: 980px) { .cards { grid-template-columns: 1fr 1fr 1fr; } }
 
-/* individual project card */
+/* Default: 1 column */
+.cards { grid-template-columns: 1fr; }
+
+/* Medium screens: 2 columns */
+@media (min-width: 768px) {
+  .cards { grid-template-columns: 1fr 1fr; }
+}
+
+/* Large screens: 2 wide columns instead of 3 tight ones */
+@media (min-width: 1200px) {
+  .cards { grid-template-columns: 1fr 1fr; }
+}
+
+// /* individual project card */
+// .card {
+//   background: #0f141b;
+//   border: 1px solid #1c2432;
+//   border-radius: 12px;
+//   padding: 14px;
+//   transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+// }
+// .card:hover {
+//   transform: translateY(-2px);
+//   box-shadow: 0 10px 28px rgba(0,0,0,.35);
+//   border-color: #2a374d;
+// }
+// .card h3 { margin: .2rem 0 .3rem; }
+// .card .meta { font-size: .9rem; color:#9aa3b2; margin:.35rem 0 .2rem; }
+
+
+/* Card style */
 .card {
   background: #0f141b;
   border: 1px solid #1c2432;
-  border-radius: 12px;
-  padding: 14px;
+  border-radius: 14px;
+  padding: 20px;
   transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
 }
+
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 28px rgba(0,0,0,.35);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,.4);
   border-color: #2a374d;
 }
-.card h3 { margin: .2rem 0 .3rem; }
-.card .meta { font-size: .9rem; color:#9aa3b2; margin:.35rem 0 .2rem; }
 
+.card h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0.35rem 0;
+  line-height: 1.5;
+} 
 /* compact button for links (resume etc.) */
 .btn-sm {
   display:inline-block; padding:.45rem .85rem; border-radius:.5rem;
