@@ -34,7 +34,7 @@
 <div class="cards">
 
   <article class="card" markdown="1">
- <h3> From Victim to Defender: Predictive Analytics for Fraud Detection</h3>
+ <h3><a href="/projects/fraud-detection">From Victim to Defender: Predictive Analytics for Fraud Detection</a></h3>
   <div class="badges">
     <span class="badge">ML</span>
     <span class="badge">Imbalanced Data</span>
