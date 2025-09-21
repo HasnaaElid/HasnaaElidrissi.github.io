@@ -1,0 +1,86 @@
+---
+
+---
+
+@import "{{ site.theme }}";
+
+/* ====== Global dark mode look ====== */
+:root {
+  --bg: #0e1116;
+  --card: #151a21;
+  --ink: #e7e9ee;
+  --muted: #aeb4c0;
+  --accent: #66e0ff;   /* techy cyan */
+  --accent-2: #8a7dff; /* secondary accent (violet) */
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-feature-settings: "cv04","cv05","ss01";
+}
+
+/* Page header (the big banner) */
+.page-header {
+  background: radial-gradient(1200px 500px at 10% -10%, rgba(102,224,255,.2), transparent 60%),
+              radial-gradient(1000px 400px at 90% 0%, rgba(138,125,255,.18), transparent 60%),
+              linear-gradient(180deg, #0f131a 0%, #0e1116 100%);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+.project-name {
+  font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+  letter-spacing: .2px;
+  font-weight: 800;
+}
+
+.project-tagline {
+  color: var(--muted);
+}
+
+/* Links + buttons */
+a { color: var(--accent); }
+a:hover { color: var(--accent-2); text-decoration: none; }
+
+.btn {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  border: none;
+  color: #051018 !important;
+  font-weight: 700;
+}
+.btn:hover { opacity: .9; }
+
+/* Content area cards */
+.main-content {
+  background: var(--bg);
+}
+.main-content h1, .main-content h2, .main-content h3 {
+  color: var(--ink);
+  border-bottom-color: rgba(255,255,255,.08);
+}
+.main-content p, .main-content li {
+  color: var(--ink);
+}
+.main-content code, .main-content pre {
+  background: #0b0e12;
+  border-color: #141a22;
+  color: #cfe9ff;
+}
+
+/* Tables (if any) */
+table {
+  background: var(--card);
+  border-color: #1e2631;
+}
+th, td {
+  border-color: #1e2631 !important;
+}
+
+/* Footer */
+.site-footer-owner, .site-footer-credits {
+  color: var(--muted);
+}
+
+/* Optional: hide theme default title for a super-clean hero and use  H1 in index.md */
+ /* .project-name { display: none; } 
+    .project-tagline { display: none; } */
