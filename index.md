@@ -15,7 +15,7 @@ I specialize in **data analysis, machine learning, big data, and data storytelli
 
 ---
 
-## 🔹 Featured Projects
+## 🔹 Featured Projects {#projectd}
 
 **From Victim to Defender: Predictive Analytics for Fraud Detection**  
 Applied machine learning to detect fraudulent transactions in an imbalanced dataset.  
@@ -62,7 +62,7 @@ Designed a high-level big data architecture for real-time fraud detection and AM
 
 ---
 
-## 🔹 Skills
+## 🔹 Skills {#skills}
 - **Programming & Tools:** Python, SQL, Spark/PySpark, R, Git/GitHub  
 - **Data Analysis:** Data wrangling, exploratory data analysis (EDA), statistical testing 
 - **Machine Learning:** Supervised & unsupervised learning, model evaluation, imbalanced data handling  
@@ -72,7 +72,7 @@ Designed a high-level big data architecture for real-time fraud detection and AM
 
 ---
 
-## 🔹 Contact
+## 🔹 Contact {#contacts}
 📧 Email: [elidrissihasnaa6@gmail.com](mailto:elidrissihasnaa6@gmail.com)  
 💼 LinkedIn: [www.linkedin.com/in/hasnaa-elidrissi](https://www.linkedin.com/in/hasnaa-elidrissi)  
 💻 GitHub: [github.com/Hasnaaelid](https://github.com/Hasnaaelid)  
