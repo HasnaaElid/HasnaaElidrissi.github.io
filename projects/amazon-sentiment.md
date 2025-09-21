@@ -1,24 +1,53 @@
-
 ---
 layout: default
 title: "Sentiment Analysis of Amazon Reviews"
+permalink: /projects/amazon-sentiment/
 ---
+
+[← Back to Home]({{ site.baseurl }}/)
 
 # Sentiment Analysis of Amazon Reviews
 
-Predicted star ratings from review text + metadata to help businesses track satisfaction and address complaints.  
+<div class="badges">
+  <span class="badge">NLP</span>
+  <span class="badge">Classification</span>
+  <span class="badge alt">TF-IDF/SMOTE</span>
+</div>
 
-## 🔹 Techniques
-- Text preprocessing, TF-IDF
-- Sentiment scoring, feature engineering
-- Models: Random Forest, XGBoost, Logistic Regression
-- SMOTE for class imbalance
+**Summary.** Mined customer reviews to predict ratings and surface drivers of satisfaction/complaints, enabling teams to prioritize fixes and improve CX.
 
-## 🔹 Findings
-- Random Forest achieved **77% accuracy** and **0.89 ROC-AUC**
-- **Sentiment score** and **helpfulness ratio** were key predictors
-- Word clouds & trend analysis revealed top positive/negative drivers
+---
 
-## 🔹 Impact
-- Helps e-commerce teams **spot customer pain points**
-- Supports **data-driven product & marketing improvements**
+## Dataset & Setup
+- **Kaggle** Amazon Product Reviews: text, ratings, helpfulness, timestamps
+- **Preprocessing:** dropped redundant IDs; imputed missing; engineered **sentiment scores**, **TF-IDF**, **helpfulness ratio**; transformed timestamps
+- **Imbalance:** addressed with **SMOTE** (for rating classes)
+
+## Modeling & Evaluation
+- Models tried: **Random Forest**, **XGBoost**, Logistic Regression
+- Metrics: **Accuracy**, **F1**, **ROC-AUC** (multi-class via one-vs-rest)
+
+## Results
+| Metric | Value |
+|---|---:|
+| Accuracy | **0.77** |
+| ROC-AUC | **0.89** |
+
+- Top predictors: **sentiment** and **helpfulness**; word count minimal
+- EDA: 5-star skew; common positive terms (“love”, “great”), negative (“poor”, “bad”); rising review volume over time
+
+**Visuals**
+- Top words & SHAP-like feature effects  
+  ![Top Words]({{ site.baseurl }}/assets/img/projects/amazon-sentiment/top_words.png)
+- Confusion matrix & ROC  
+  ![Confusion Matrix]({{ site.baseurl }}/assets/img/projects/amazon-sentiment/cm.png)
+
+## Impact
+- Identify systematic issues; prioritize product fixes and messaging
+- Baseline for monitoring sentiment shifts by category/SKU
+
+## Next
+- Tune XGBoost; address mid-range (2–4 stars) confusion
+- Better text handling (negation, sarcasm); consider **transformers**
+- Multilingual expansion; human-in-the-loop validation
+
