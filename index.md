@@ -1,4 +1,4 @@
-# Welcome to My Portfolio 👋
+# Welcome to My Portfolio 
 
 Hi, I’m **Hasnaa Elidrissi** a **Data Analyst** pursuing my masters in **Data Science**🎓 passionate about solving problems with data.  
 I specialize in **data analysis, machine learning, big data, and data storytelling** transforming raw data into insights and communicating results with clarity.
@@ -71,9 +71,9 @@ Designed a high-level big data architecture for real-time fraud detection and AM
 ---
 
 ## 🔹 Contact
-- 📧 Email: [elidrissihasnaa6@gmail.com](mailto:elidrissihasnaa6@gmail.com)  
-- 💼 LinkedIn: [www.linkedin.com/in/hasnaa-elidrissi](https://www.linkedin.com/in/hasnaa-elidrissi)  
-- 💻 GitHub: [github.com/Hasnaaelid](https://github.com/Hasnaaelid)  
+📧 Email: [elidrissihasnaa6@gmail.com](mailto:elidrissihasnaa6@gmail.com)  
+💼 LinkedIn: [www.linkedin.com/in/hasnaa-elidrissi](https://www.linkedin.com/in/hasnaa-elidrissi)  
+💻 GitHub: [github.com/Hasnaaelid](https://github.com/Hasnaaelid)  
 
 ---
 
