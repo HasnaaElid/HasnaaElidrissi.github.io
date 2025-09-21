@@ -159,6 +159,18 @@ th, td {
 /* spacing between tiles */
 .tile + .tile { margin-top: 1rem; }
 
+/* Restore proper list styling inside tiles */
+.tile ul {
+  margin: 0.75rem 0 1rem 1.5rem;  /* space before/after, indent */
+  padding-left: 1rem;
+  list-style-type: disc;          /* bullet style */
+}
+
+.tile li {
+  margin: 0.4rem 0;               /* space between items */
+  line-height: 1.5;               /* improve readability */
+}
+
 // /* Footer */
 // .site-footer-owner, .site-footer-credits {
 //   color: var(--muted);
