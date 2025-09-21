@@ -93,6 +93,72 @@ th, td {
   border-color: #1e2631 !important;
 }
 
+/* ====== Tile / Card layout for sections ====== */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 1.25rem 0 2rem;
+}
+
+.tile {
+  background: #151a21;         /* card bg on dark theme */
+  border: 1px solid #202734;    /* subtle border */
+  border-radius: 14px;
+  padding: 1.25rem 1.1rem;
+  box-shadow: 0 8px 30px rgba(0,0,0,.25);
+}
+
+/* section headings inside tiles */
+.tile h2, .tile h3 {
+  margin-top: .2rem;
+  color: #e7e9ee;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+/* body text in tiles */
+.tile p, .tile li {
+  color: #cbd2dc;
+}
+
+/* grid for project cards */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 640px) { .cards { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 980px) { .cards { grid-template-columns: 1fr 1fr 1fr; } }
+
+/* individual project card */
+.card {
+  background: #0f141b;
+  border: 1px solid #1c2432;
+  border-radius: 12px;
+  padding: 14px;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(0,0,0,.35);
+  border-color: #2a374d;
+}
+.card h3 { margin: .2rem 0 .3rem; }
+.card .meta { font-size: .9rem; color:#9aa3b2; margin:.35rem 0 .2rem; }
+
+/* compact button for links (resume etc.) */
+.btn-sm {
+  display:inline-block; padding:.45rem .85rem; border-radius:.5rem;
+  background: linear-gradient(90deg, #66e0ff, #8a7dff);
+  color:#051018 !important; font-weight:700; border:0;
+}
+.btn-sm:hover { opacity:.92; }
+
+/* spacing between tiles */
+.tile + .tile { margin-top: 1rem; }
+
 // /* Footer */
 // .site-footer-owner, .site-footer-credits {
 //   color: var(--muted);
