@@ -27,53 +27,89 @@
 
 ---
 
-</section>
+<section class="section tile" id="projects" markdown="1">
+## 🔹 Featured Projects
 
-<div class="container">
+<div class="cards">
 
-<section class="section tile">
-  <h2 id="projects">🔹 Featured Projects</h2>
-
-  <div class="cards">
-
-    <article class="card">
-      <h3>From Victim to Defender: Predictive Analytics for Fraud Detection</h3>
-      <p>Applied ML to detect fraudulent transactions in an imbalanced dataset.</p>
-      <p class="meta"><strong>EDA:</strong> class imbalance (0.13%), features ·
-      <strong>Methods:</strong> ML models · <strong>Result:</strong> high precision/recall trade-off.</p>
-    </article>
-
-    <article class="card">
-      <h3>Early Warning NLP for Fraud Signals <em>(in progress)</em></h3>
-      <p>NLP pipeline to surface early indicators from memos/complaints.</p>
-      <p class="meta"><strong>Findings:</strong> clusters of terms linked to disputes ·
-      <strong>Next:</strong> larger data, interpretability, multimodal.</p>
-    </article>
-
-    <article class="card">
-      <h3>Sentiment Analysis of Amazon Reviews</h3>
-      <p>Predicted ratings from text + metadata; extracted actionable insights.</p>
-      <p class="meta"><strong>EDA:</strong> rating skew, key terms · 
-      <strong>Methods:</strong> classic ML · 
-      <strong>Outcome:</strong> strong predictive signals.</p>
-    </article>
-
-    <article class="card">
-      <h3>Childcare Affordability & Workforce Participation</h3>
-      <p>Storytelling with affordability metrics and participation trends.</p>
-      <p class="meta"><strong>Tools:</strong> dashboards, analysis ·
-      <strong>Impact:</strong> policy-oriented recommendations.</p>
-    </article>
-
-    <article class="card">
-      <h3>Real-Time Fraud Detection & AML Architecture</h3>
-      <p>Designed scalable ingestion and detection pipelines for banking.</p>
-      <p class="meta"><strong>Stack:</strong> Spark, Kafka, Hive, NiFi ·
-      <strong>Focus:</strong> compliance + scale.</p>
-    </article>
-
+  <article class="card" markdown="1">
+  ### From Victim to Defender: Predictive Analytics for Fraud Detection
+  <div class="badges">
+    <span class="badge">ML</span>
+    <span class="badge">Imbalanced Data</span>
+    <span class="badge">Python</span>
+    <span class="badge alt">Model Evaluation</span>
   </div>
+  Applied machine learning to detect fraudulent transactions in a highly imbalanced dataset (≈0.13% positive class) with a focus on practical precision/recall trade-offs.
+
+  **Outcome / Impact**
+  - Random Forest balanced high precision with strong recall for real-world use.
+  - Clear evaluation pipeline (PR/ROC, confusion matrix, threshold sensitivity).
+  - Communicated operational trade-offs to minimize false positives.
+  </article>
+
+  <article class="card" markdown="1">
+  ### Early Warning NLP for Fraud Signals *(in progress)*
+  <div class="badges">
+    <span class="badge">Text Mining</span>
+    <span class="badge">Keyword/Topic Clusters</span>
+    <span class="badge">Python</span>
+    <span class="badge alt">Explainability</span>
+  </div>
+  Pipeline to surface early risk indicators from transaction memos and customer complaints; early clusters (e.g., “not authorized”, “fraudulent charges”) correlate with disputes.
+
+  **Outcome / Impact**
+  - Surfaced term clusters tied to dispute outcomes for proactive review.
+  - Roadmap to scale data, improve interpretability, and explore multimodal.
+  </article>
+
+  <article class="card" markdown="1">
+  ### Sentiment Analysis of Amazon Reviews
+  <div class="badges">
+    <span class="badge">NLP</span>
+    <span class="badge">Classification</span>
+    <span class="badge">TF-IDF</span>
+    <span class="badge alt">SMOTE</span>
+  </div>
+  Predicted ratings from review text + metadata; identified drivers of satisfaction and dissatisfaction for product and marketing teams.
+
+  **Outcome / Impact**
+  - Strong predictive baseline; sentiment & helpfulness were key signals.
+  - Practical guidance to monitor pain points and improve product feedback loops.
+  </article>
+
+  <article class="card" markdown="1">
+  ### Childcare Affordability & Workforce Participation
+  <div class="badges">
+    <span class="badge">EDA</span>
+    <span class="badge">Data Storytelling</span>
+    <span class="badge">Dashboards</span>
+  </div>
+  Analyzed affordability ratios vs. participation trends; presented insights for policy decision-making.
+
+  **Outcome / Impact**
+  - Showed link between higher childcare cost and lower participation.
+  - Produced visuals and a narrative for non-technical stakeholders.
+  </article>
+
+  <article class="card" markdown="1">
+  ### Real-Time Fraud Detection & AML Architecture
+  <div class="badges">
+    <span class="badge">Architecture</span>
+    <span class="badge">Spark</span>
+    <span class="badge">Kafka</span>
+    <span class="badge alt">Hive / NiFi</span>
+  </div>
+  Designed scalable ingestion, storage, and detection pipelines for banking compliance and fraud monitoring.
+
+  **Outcome / Impact**
+  - End-to-end design from raw events to analytics/search layers.
+  - Clear pathway to real-time scoring with enterprise tooling.
+  </article>
+
+</div>
 </section>
+
 
 <section class="section tile" markdown="1">
   
