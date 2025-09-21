@@ -212,6 +212,17 @@ th, td {
   color: #f1f5f9;           /* light color for readability */
 }
 
+/* Make project card titles look like titles, not links */
+.card h3 a {
+  color: #f1f5f9;         /* same as header text */
+  text-decoration: none;  /* remove underline */
+}
+
+.card h3 a:hover {
+  color: #66e0ff;         /* subtle hover accent */
+}
+
+
 /* Body text in cards */
 .card p {
   font-size: 1rem;
