@@ -1,3 +1,5 @@
+**[Home](/)** · **[Projects](/#-featured-projects)** · **[Skills](/#-skills)** · **[Contact](/#-contact)**
+
 
 
 Hi, I’m **Hasnaa Elidrissi** a **Data Analyst** pursuing my masters in **Data Science**🎓 passionate about solving problems with data.  
@@ -74,6 +76,7 @@ Designed a high-level big data architecture for real-time fraud detection and AM
 📧 Email: [elidrissihasnaa6@gmail.com](mailto:elidrissihasnaa6@gmail.com)  
 💼 LinkedIn: [www.linkedin.com/in/hasnaa-elidrissi](https://www.linkedin.com/in/hasnaa-elidrissi)  
 💻 GitHub: [github.com/Hasnaaelid](https://github.com/Hasnaaelid)  
+📃 [Download my resume](){:.btn}
 
 ---
 
