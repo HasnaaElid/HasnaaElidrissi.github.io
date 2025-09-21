@@ -3,22 +3,21 @@
 
 
 
-<section class="section tile">
-  <h1 id="about"> Welcome to  My Portfolio </h1>
-  <p>
-   Hi, I’m **Hasnaa Elidrissi** a **Data Analyst** pursuing my masters in **Data Science**🎓 passionate about solving problems with data.  
-   I specialize in **data analysis, machine learning, big data, and data storytelling** transforming raw data into insights and communicating results with clarity.
-
-  </p>
+<section class="section tile" markdown="1">
   
-  <h2 id="about">🔹 About Me</h2>
-  <p>
-  <ul>
-    <li> Academic background in **Data Analytics & Data Science</li> 
-    <li> Professional experience in **fraud detection and risk analytics </li>  
-    <li> Skilled in **Python, SQL, Spark/PySpark, data visualization, and machine learning</li>
-    <li> Passionate about combining **technical problem solving** with **clear reporting and communication** </li>
-  </p>
+  Hi, I’m **Hasnaa Elidrissi** a **Data Analyst** pursuing my masters in **Data Science**🎓 passionate about solving problems with data.  
+  I specialize in **data analysis, machine learning, big data, and data storytelling** transforming raw data into insights and communicating results with clarity.
+
+---
+
+## 🔹 About Me {#about}
+- Academic background in **Data Analytics & Data Science**  
+- Professional experience in **fraud detection and risk analytics**  
+- Skilled in **Python, SQL, Spark/PySpark, data visualization, and machine learning**  
+- Passionate about combining **technical problem solving** with **clear reporting and communication**  
+
+---
+
 </section>
 
 <div class="container">
@@ -77,7 +76,7 @@
     <li><strong>Visualization & Reporting:</strong> Tableau, Power BI, Matplotlib, Plotly</li>
     <li><strong>Communication:</strong> clear reporting, presentations, data storytelling</li>
   </ul>
-  <p><a href="HasnaaElidrissi.pdf" class="btn-sm">Download my resume </a></p>
+  
 </section>
 
 <section class="section tile">
@@ -85,6 +84,7 @@
   <p>📧 <a href="elidrissihasnaa6@gmail.com">elidrissihasnaa6@gmail.com</a><br>
      💼 <a href="https://www.linkedin.com/in/hasnaa-elidrissi</a><br>
      💻 <a href="https://github.com/Hasnaaelid</a></p>
+      [Download my resume](HasnaaElidrissi.pdf){:.btn-sm}
 </section>
 
 </div>
