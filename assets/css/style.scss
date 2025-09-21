@@ -21,11 +21,14 @@ html, body {
 }
 
 /* Page header (the big banner) */
+// .page-header {
+//   background: radial-gradient(1200px 500px at 10% -10%, rgba(102,224,255,.2), transparent 60%),
+//               radial-gradient(1000px 400px at 90% 0%, rgba(138,125,255,.18), transparent 60%),
+//               linear-gradient(180deg, #0f131a 0%, #0e1116 100%);
+//   border-bottom: 1px solid rgba(255,255,255,.06);
+// }
 .page-header {
-  background: radial-gradient(1200px 500px at 10% -10%, rgba(102,224,255,.2), transparent 60%),
-              radial-gradient(1000px 400px at 90% 0%, rgba(138,125,255,.18), transparent 60%),
-              linear-gradient(180deg, #0f131a 0%, #0e1116 100%);
-  border-bottom: 1px solid rgba(255,255,255,.06);
+  display: none;
 }
 
 .project-name {
