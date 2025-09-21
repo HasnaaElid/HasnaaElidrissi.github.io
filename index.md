@@ -1,4 +1,4 @@
-**[Home](/)** · **[Projects](/#projects)** · **[Skills](/#skills)** · **[Contact](/#contact)**
+**[Home](.)** · **[Projects](#projects)** · **[Skills](#skills)** · **[Contact](#contact)**
 
 
 
