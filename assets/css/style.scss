@@ -108,15 +108,21 @@ th, td {
 }
 
 .tile {
-  background: #151a21;         /* card bg on dark theme */
-  border: 1px solid #202734;    /* subtle border */
-  border-radius: 14px;
-  padding: 1.25rem 1.1rem;
-  box-shadow: 0 8px 30px rgba(0,0,0,.25);
+  background: #131821;       /* slightly darker bg */
+  border: 1px solid #2a374d;
+  // background: #151a21;         /* card bg on dark theme */
+  // border: 1px solid #202734;    /* subtle border */
+  // border-radius: 14px;
+  // padding: 1.25rem 1.1rem;
+  // box-shadow: 0 8px 30px rgba(0,0,0,.25);
 }
 
 /* section headings inside tiles */
-.tile h2, .tile h3 {
+.tile h2 {
+  color: #66e0ff;            /* accent title */
+}
+
+.tile h3 {
   margin-top: .2rem;
   color: #e7e9ee;
   border-bottom: 1px solid rgba(255,255,255,.06);
@@ -125,6 +131,17 @@ th, td {
 /* body text in tiles */
 .tile p, .tile li {
   color: #cbd2dc;
+}
+.tile ul {
+  margin: 0.75rem 0 1.2rem 1.5rem;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.tile li {
+  margin: 0.45rem 0;
+  line-height: 1.55;
+  font-size: 1rem;
 }
 
 /* grid for project cards */
