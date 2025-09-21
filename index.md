@@ -2,6 +2,15 @@
 **[Home](.) . [Projects](#projects) · [Skills](#skills) · [Contact](#contact)**
 
 
+<section class="hero">
+  <div class="hero__overlay">
+    <div class="hero__content">
+      <h1>Sana Essafi</h1>
+      <p>Data Science & Machine Learning — fraud analytics · risk signals · storytelling</p>
+      <p><a href="#projects" class="btn-sm">See projects</a></p>
+    </div>
+  </div>
+</section>
 
 <section class="section tile" markdown="1">
   
