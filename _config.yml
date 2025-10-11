@@ -4,3 +4,5 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+url: https://HasnaaElidrissi.github.io
+baseurl: /HasnaaElidrissi
