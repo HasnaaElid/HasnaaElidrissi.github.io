@@ -39,5 +39,5 @@ permalink: /projects/early-warning-nlp/
 ## Repository
 - **Code:** [fraud-early-warning-nlp GitHub](https://github.com/HasnaaElid/fraud-early-warning-nlp)
 - **PPT:** [Slides](assets/docs/early-warning.pdf)
-- **README:** environment, run steps, and attribution policy
+
 
