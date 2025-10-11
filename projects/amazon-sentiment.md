@@ -36,11 +36,6 @@ permalink: /projects/amazon-sentiment/
 - Top predictors: **sentiment** and **helpfulness**; word count minimal
 - EDA: 5-star skew; common positive terms (“love”, “great”), negative (“poor”, “bad”); rising review volume over time
 
-**Visuals**
-- Top words & SHAP-like feature effects  
-  ![Top Words]({{ site.baseurl }}/assets/img/projects/amazon-sentiment/top_words.png)
-- Confusion matrix & ROC  
-  ![Confusion Matrix]({{ site.baseurl }}/assets/img/projects/amazon-sentiment/cm.png)
 
 ## Reproducibility
 - [View the Notebook]({{ site.baseurl }}/assets/docs/HasnaaElidrissiTermProjectMilestone3.html)
