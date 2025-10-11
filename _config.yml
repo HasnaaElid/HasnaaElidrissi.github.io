@@ -1,3 +1,6 @@
 title: "Hasnaa Elidrissi"
 description: "Data Science & ML Portfolio"
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
