@@ -38,8 +38,7 @@ permalink: /projects/fraud-aml-architecture/
 - **Compliance & auditability** (Hive + Solr; explainable signals)
 - **Scalability** by design; modular services
 
-  ## View
-- [View Architecture] ({{ site.baseurl }}/assets/docs/DSC650HasnaaELidrissiWeek10_.pdf)
+- [View Architecture]({{ site.baseurl }}/assets/docs/DSC650HasnaaELidrissiWeek10_.pdf)
 
 ## Impact
 - Faster detection, fewer losses
