@@ -29,10 +29,7 @@ permalink: /projects/childcare-affordability/
 - Normalized comparisons (for top 10 least affordable) show clear inverse trend
 
 **Visuals**
-- Choropleth: state affordability disparities  
-  ![Affordability Map]({{ site.baseurl }}/assets/img/projects/childcare-affordability/map.png)
-- Grouped bars by care type; FLFPR line/column; normalized side-by-side chart  
-  ![Charts]({{ site.baseurl }}/assets/img/projects/childcare-affordability/charts.png)
+- [View Slides (PDF)]({{ site.baseurl }}/assets/docs/HasnaaElidrissiDSC640Project.pdf)
 
 ## Communication & Design
 - Consistent palette (blue labor, teal cost, gray neutral), legible labeling, state abbreviations to reduce clutter
