@@ -37,7 +37,7 @@ permalink: /projects/fraud-detection/
 | Overall | Strong AUC-ROC; balanced F1 after resampling & ensembling |
 
 ## Reproducibility
-- 📓 [View the Notebook]({{ site.baseurl }}/assets/notebooks/fraud_detection.ipynb)
+- 📓 [View the Notebook]({{ site.baseurl }}/assets/docs/HasnaaElidrissiMilestone5.html)
 - 📑 [Download Slides (PDF)]({{ site.baseurl }}/assets/docs/fraud_detection.pdf)
 
 ## Deployment
