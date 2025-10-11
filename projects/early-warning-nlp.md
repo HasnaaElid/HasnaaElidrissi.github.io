@@ -1,10 +1,10 @@
 
 ---
 layout: default
-title: "Early Warning NLP for Fraud Signals (In Progress)"
+title: "Early Warning NLP for Fraud Signals"
 ---
 
-# Early Warning NLP for Fraud Signals *(In Progress)*
+# Early Warning NLP for Fraud Signals 
 
 Building an NLP pipeline to surface early indicators of fraud from transaction memos and customer complaints.  
 
