@@ -32,13 +32,14 @@ permalink: /projects/fraud-aml-architecture/
 - **Solr** → fast search for flagged transactions & audit trails
 - **Jupyter + Spark** → analyst notebooks and ad hoc exploration
 
-- [View Architecture]({{ site.baseurl }}/assets/docs/DSC650HasnaaELidrissiWeek10_.pdf)
-
 ## Capabilities Delivered
 - **Real-time scoring & alerts** (Kafka + rules/ML)
 - **Behavior analytics** (HBase + Spark)
 - **Compliance & auditability** (Hive + Solr; explainable signals)
 - **Scalability** by design; modular services
+
+  ## View
+- [View Architecture] ({{ site.baseurl }}/assets/docs/DSC650HasnaaELidrissiWeek10_.pdf)
 
 ## Impact
 - Faster detection, fewer losses
