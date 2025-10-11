@@ -42,6 +42,9 @@ permalink: /projects/amazon-sentiment/
 - Confusion matrix & ROC  
   ![Confusion Matrix]({{ site.baseurl }}/assets/img/projects/amazon-sentiment/cm.png)
 
+## Reproducibility
+- [View the Notebook]({{ site.baseurl }}/assets/docs/HasnaaElidrissiTermProjectMilestone3.html)
+
 ## Impact
 - Identify systematic issues; prioritize product fixes and messaging
 - Baseline for monitoring sentiment shifts by category/SKU
