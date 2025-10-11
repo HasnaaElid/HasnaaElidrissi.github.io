@@ -37,8 +37,8 @@ permalink: /projects/fraud-detection/
 | Overall | Strong AUC-ROC; balanced F1 after resampling & ensembling |
 
 ## Reproducibility
-- 📓 [View the Notebook]({{ site.baseurl }}/assets/docs/HasnaaElidrissiMilestone5.html)
-- 📑 [View Slides (PDF)]({{ site.baseurl }}/assets/docs/Fraud_detction.pdf)
+- [View the Notebook]({{ site.baseurl }}/assets/docs/HasnaaElidrissiMilestone5.html)
+- [View Slides (PDF)]({{ site.baseurl }}/assets/docs/Fraud_detction.pdf)
 
 ## Deployment
 - **Real-time scoring** in the transaction stream; high-risk auto-flagged for review/hold, low-risk pass-through
