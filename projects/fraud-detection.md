@@ -38,7 +38,7 @@ permalink: /projects/fraud-detection/
 
 ## Reproducibility
 - 📓 [View the Notebook]({{ site.baseurl }}/assets/docs/HasnaaElidrissiMilestone5.html)
-- 📑 [Download Slides (PDF)]({{ site.baseurl }}/assets/docs/fraud_detection.pdf)
+- 📑 [View Slides (PDF)]({{ site.baseurl }}/assets/docs/fraud_detection.pdf)
 
 ## Deployment
 - **Real-time scoring** in the transaction stream; high-risk auto-flagged for review/hold, low-risk pass-through
