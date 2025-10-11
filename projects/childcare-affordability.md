@@ -28,7 +28,7 @@ permalink: /projects/childcare-affordability/
 - States with **higher affordability burdens** tend to have **lower maternal participation**
 - Normalized comparisons (for top 10 least affordable) show clear inverse trend
 
-  <img src="../assets/img/Screenshot 2025-10-11 094827.png" alt="Where Childcare Costs the Most" width="600">
+  <img src="{{../assets/img/Screenshot 2025-10-11 094827.png" | relative_url }} alt="Where Childcare Costs the Most" width="600">
 - [View Slides (PDF)]({{ site.baseurl }}/assets/docs/HasnaaElidrissiDSC640Project.pdf)
 
 ## Communication & Design
