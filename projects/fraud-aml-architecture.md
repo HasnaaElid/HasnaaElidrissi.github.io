@@ -32,7 +32,7 @@ permalink: /projects/fraud-aml-architecture/
 - **Solr** → fast search for flagged transactions & audit trails
 - **Jupyter + Spark** → analyst notebooks and ad hoc exploration
 
-![Architecture]({{ site.baseurl }}/assets/img/projects/fraud-aml-architecture/diagram.png)
+![Architecture]({{ site.baseurl }}/assets/docs/DSC650HasnaaELidrissiWeek10_.pdf)
 
 ## Capabilities Delivered
 - **Real-time scoring & alerts** (Kafka + rules/ML)
