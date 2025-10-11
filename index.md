@@ -110,9 +110,9 @@
   
 </div>
 </section>
-**Note:** I am including eight projects in my portfolio instead of ten. Several earlier course assignments were exploratory exercises or small code demonstrations rather than complete, portfolio-ready projects. The eight listed here represent full, end-to-end work that best demonstrates my applied data science skills across analytics, NLP, big data, and data storytelling.
 
 <section class="section tile" markdown="1">
+**Note:** I am including five projects in my portfolio instead of ten(will be adding). Several earlier course projects were exploratory exercises or small code demonstrations rather than complete, portfolio-ready projects. The eight listed here represent full, end-to-end work that best demonstrates my applied data science skills across analytics, NLP, big data, and data storytelling.
   
 ## 🔹 Skills {#skills}
 - **Programming & Tools:** Python, SQL, Spark/PySpark, R, Git/GitHub  
