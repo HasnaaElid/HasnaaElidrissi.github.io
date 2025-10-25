@@ -107,7 +107,23 @@
   - End-to-end design from raw events to analytics/search layers.
   - Clear pathway to real-time scoring with enterprise tooling.
   </article>
-  
+
+  <article class="card">
+  <h3><a href="{{ site.baseurl }}/projects/bilingual-brain-graphs">Graph-Based Insights into the Bilingual Brain</a></h3>
+  <div class="badges">
+    <span class="badge">Python</span>
+    <span class="badge">fMRI</span>
+    <span class="badge">Graph Analysis</span>
+    <span class="badge alt">Machine Learning</span>
+  </div>
+  <p>Open fMRI of Polish–English bilinguals. Built correlation-based functional graphs and applied explainable models to study network reorganization during speech.</p>
+  <ul class="outcome">
+    <li>Right-hemisphere somatomotor + salience networks more central during speech.</li>
+    <li>L1 Logistic Regression: ~0.76 accuracy / 0.77 ROC–AUC (subject-wise CV).</li>
+    <li>Interpretable brain-region contributions aligned with bilingual-control theory.</li>
+  </ul>
+</article>
+
 </div>
 </section>
 **Note:** I am including five projects in my portfolio instead of ten (and will be adding). Several earlier course projects were exploratory exercises or small code demonstrations rather than complete, portfolio-ready projects. The ones listed here represent full, end-to-end work that best demonstrates my applied data science skills across analytics, NLP, big data, and data storytelling.
