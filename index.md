@@ -108,8 +108,8 @@
   - Clear pathway to real-time scoring with enterprise tooling.
   </article>
 
-  <article class="card">
-  <h3><a href="{{ site.baseurl }}/projects/bilingual-brain-graphs">Graph-Based Insights into the Bilingual Brain</a></h3>
+  <article class="card" markdown="1">
+  <h3><a href="{{ site.baseurl }}/projects/bilingual-brain-graphs"> Graph-Based Insights into the Bilingual Brain</a></h3>
   <div class="badges">
     <span class="badge">Python</span>
     <span class="badge">fMRI</span>
