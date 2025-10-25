@@ -30,8 +30,9 @@ permalink: /projects/fraud-detection/
 - **Validation:** stratified split; **Precision/Recall/F1** and **AUC-ROC** emphasized; threshold tuning
 
 ## Results
+
 | Metric | Value (headline) |
-|---|---:|
+|--------|:-----------------|
 | Detection rate (recall on fraud) | **> 90%** identified |
 | Precision / false positives | Tuned via thresholding for ops-friendly rates |
 | Overall | Strong AUC-ROC; balanced F1 after resampling & ensembling |
