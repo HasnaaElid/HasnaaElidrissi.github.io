@@ -70,7 +70,7 @@ Through correlation-based functional connectivity and explainable models, the an
 |----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
 | ![ROC Curve]({{ site.baseurl }}/assets/img/roc_l1_subjectwise.png) | **ROC Curve.** L1 Logistic Regression distinguishing *Alice* vs *Articulation* (AUC = 0.77). |
 | ![Feature Importance]({{ site.baseurl }}/assets/img/coef_top_l1.png)| **Feature Importance.** Top predictive regions in somatomotor and salience networks. |
-| ![Functional Graph (Alice)]({{ site.baseurl }}/assets/img/output_16_1.png) | **Functional Graph (Alice).** Nodes = cortical regions, edges = strongest co-fluctuations. |
+| ![Functional Graph (Alice)]({{ site.baseurl }}/assets/img/functional_connectivity_graph.png) | **Functional Graph (Alice).** Nodes = cortical regions, edges = strongest co-fluctuations. |
 
 ---
 
