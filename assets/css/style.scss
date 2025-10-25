@@ -15,7 +15,8 @@
 }
 
 html, body {
-  background: var(--bg);
+  // background: var(--bg);
+  background: #0b0e12;
   color: var(--ink);
   font-feature-settings: "cv04","cv05","ss01";
 }
@@ -468,6 +469,38 @@ th, td {
   border-radius: 14px;
   padding: 1.35rem 1.2rem;
 }
+/* ===== Global background using your banner ===== */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("{{ site.baseurl }}/assets/img/banner_ds.jpg") center/cover no-repeat fixed;
+  filter: brightness(0.35) saturate(1.05); /* darken for readability */
+  z-index: -2; /* sit behind everything */
+}
+
+/* Soft gradient overlay for extra contrast */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(60% 40% at 20% 10%, rgba(102,224,255,.10), transparent 55%),
+    radial-gradient(50% 35% at 85% 0%, rgba(138,125,255,.10), transparent 55%),
+    linear-gradient(180deg, rgba(8,11,16,.65), rgba(8,11,16,.85));
+  z-index: -1;
+}
+
+/* Make tiles/cards slightly translucent & crisp on the background */
+.tile, .card, .main-content {
+  background: rgba(19, 24, 33, 0.78);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-color: rgba(255,255,255,.06);
+}
+
+/* Hide the old in-page hero (keep your HTML intact) */
+.hero-home { display: none; }
 
 
 // /* Footer */
