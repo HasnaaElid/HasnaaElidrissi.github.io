@@ -30,7 +30,7 @@ permalink: /projects/amazon-sentiment/
 ## Results
 
 | Metric    | Value   |
-|---------:|---------:|
+|---------:|---------|
 | Accuracy | **0.77** |
 | ROC-AUC | **0.89** |
 
