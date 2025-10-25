@@ -75,7 +75,7 @@ Through correlation-based functional connectivity and explainable models, the an
 ---
 
 ## Interpretation
-The results show that bilingual speech increases the coordination between **motor**, **salience**, and **executive-control** networks—especially in the right hemisphere.  
+The results show that bilingual speech increases the coordination between **motor**, **salience**, and **executive-control** networks-especially in the right hemisphere.  
 These findings align with bilingual control models, suggesting that speech hesitation reflects **neural coordination cost**, not linguistic deficiency.  
 Graph-based modeling thus provides an interpretable, data-driven view of how the bilingual brain manages language switching under cognitive load.
 
