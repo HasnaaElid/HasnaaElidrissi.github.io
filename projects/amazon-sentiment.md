@@ -28,8 +28,9 @@ permalink: /projects/amazon-sentiment/
 - Metrics: **Accuracy**, **F1**, **ROC-AUC** (multi-class via one-vs-rest)
 
 ## Results
-| Metric | Value |
-|---|---:|
+
+| Metric    | Value   |
+|---------:|---------:|
 | Accuracy | **0.77** |
 | ROC-AUC | **0.89** |
 
