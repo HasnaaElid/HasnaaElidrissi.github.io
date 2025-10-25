@@ -47,7 +47,7 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(40%) blur(0.5px); /* darker & softer for readability */
+  filter: brightness(45%) contrast(1.1); /* darker & softer for readability */
 }
 
 .hero-home .overlay {
