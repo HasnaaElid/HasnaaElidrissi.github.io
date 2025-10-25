@@ -54,7 +54,7 @@ Through correlation-based functional connectivity and explainable models, the an
   - Default-mode regions show reduced centrality, indicating stronger external focus.  
 - **Modeling Performance:**  
   | Model   | Accuracy   | ROC-AUC   | Notes  |
-  |--------:|-----------:|----------:|-------:|
+  |---------:|------------:|---------:|---------:|
   | Logistic Regression (L2) | 0.45 | 0.38 | Weak global baseline |
   | Random Forest | 0.28 | 0.26 | Overfit, low generalization |
   | **L1 Logistic Regression** | **0.76** | **0.77** | Strongest, interpretable, right-lateralized control hubs |
@@ -63,7 +63,7 @@ Through correlation-based functional connectivity and explainable models, the an
 
 ## Visuals
 | Figure | Description   |
-|--------:|--------------|
+|---------:|--------------|
 | ![ROC Curve]({{ site.baseurl }}/assets/img/projects/bilingual-brain-graphs/roc_l1_subjectwise.png) | **ROC Curve.** L1 Logistic Regression distinguishing *Alice* vs *Articulation* (AUC = 0.77). |
 | ![Feature Importance]({{ site.baseurl }}/assets/img/projects/bilingual-brain-graphs/coef_top_l1.png)| **Feature Importance.** Top predictive regions in somatomotor and salience networks. |
 | ![Functional Graph (Alice)]({{ site.baseurl }}/assets/img/projects/bilingual-brain-graphs/output_16_1.png) | **Functional Graph (Alice).** Nodes = cortical regions, edges = strongest co-fluctuations. |
