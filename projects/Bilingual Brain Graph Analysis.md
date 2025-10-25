@@ -52,12 +52,14 @@ Through correlation-based functional connectivity and explainable models, the an
 - **Network Findings:**  
   - Speech condition shows increased connectivity in right somatomotor and salience networks.  
   - Default-mode regions show reduced centrality, indicating stronger external focus.  
-- **Modeling Performance:**  
-  | Model   | Accuracy   | ROC-AUC   | Notes  |
-  |---------:|------------:|---------:|---------:|
-  | Logistic Regression (L2) | 0.45 | 0.38 | Weak global baseline |
-  | Random Forest | 0.28 | 0.26 | Overfit, low generalization |
-  | **L1 Logistic Regression** | **0.76** | **0.77** | Strongest, interpretable, right-lateralized control hubs |
+- ## Modeling Performance
+
+| Model                      | Accuracy | ROC–AUC | Notes                                                |
+|---------------------------|:--------:|:-------:|------------------------------------------------------|
+| Logistic Regression (L2)  |   0.45   |  0.38   | Weak global baseline                                 |
+| Random Forest             |   0.28   |  0.26   | Overfit, low generalization                          |
+| **L1 Logistic Regression**| **0.76** | **0.77**| Strongest, interpretable, right-lateralized control hubs |
+
 
 ---
 
