@@ -15,8 +15,8 @@
 }
 
 html, body {
-  // background: var(--bg);
-  background: #0b0e12;
+  background: var(--bg);
+  // background: #0b0e12;
   color: var(--ink);
   font-feature-settings: "cv04","cv05","ss01";
 }
@@ -502,29 +502,29 @@ body::after {
 /* Hide the old in-page hero (keep your HTML intact) */
 .hero-home { display: none; }
 
-/* === Global site background (behind everything) === */
-html::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: url("/assets/img/banner_ds.jpg") center / cover no-repeat fixed;
-  filter: brightness(0.35) saturate(1.05);
-  z-index: -1; /* sits behind the page */
-}
+// /* === Global site background (behind everything) === */
+// html::before {
+//   content: "";
+//   position: fixed;
+//   inset: 0;
+//   background: url("/assets/img/banner_ds.jpg") center / cover no-repeat fixed;
+//   filter: brightness(0.35) saturate(1.05);
+//   z-index: -1; /* sits behind the page */
+// }
 
-/* make page background transparent so the image shows */
-html, body { background: transparent; }
+// /* make page background transparent so the image shows */
+// html, body { background: transparent; }
 
-/* keep tiles readable on top of the photo */
-.tile, .card, .main-content {
-  background: rgba(19, 24, 33, 0.78);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-color: rgba(255,255,255,.06);
-}
+// /* keep tiles readable on top of the photo */
+// .tile, .card, .main-content {
+//   background: rgba(19, 24, 33, 0.78);
+//   backdrop-filter: blur(6px);
+//   -webkit-backdrop-filter: blur(6px);
+//   border-color: rgba(255,255,255,.06);
+// }
 
-/* hide the old in-page hero (keep your HTML intact) */
-.hero-home { display: none; }
+// /* hide the old in-page hero (keep your HTML intact) */
+// .hero-home { display: none; }
 
 // /* Footer */
 // .site-footer-owner, .site-footer-credits {
