@@ -53,8 +53,8 @@ Through correlation-based functional connectivity and explainable models, the an
   - Speech condition shows increased connectivity in right somatomotor and salience networks.  
   - Default-mode regions show reduced centrality, indicating stronger external focus.  
 - **Modeling Performance:**  
-  | Model | Accuracy | ROC–AUC | Notes |
-  |--------|-----------|----------|-------|
+  | Model   | Accuracy   | ROC-AUC   | Notes  |
+  |--------:|-----------:|----------:|-------:|
   | Logistic Regression (L2) | 0.45 | 0.38 | Weak global baseline |
   | Random Forest | 0.28 | 0.26 | Overfit, low generalization |
   | **L1 Logistic Regression** | **0.76** | **0.77** | Strongest, interpretable, right-lateralized control hubs |
@@ -62,8 +62,8 @@ Through correlation-based functional connectivity and explainable models, the an
 ---
 
 ## Visuals
-| Figure | Description |
-|--------|--------------|
+| Figure | Description   |
+|--------:|--------------|
 | ![ROC Curve]({{ site.baseurl }}/assets/img/projects/bilingual-brain-graphs/roc_l1_subjectwise.png) | **ROC Curve.** L1 Logistic Regression distinguishing *Alice* vs *Articulation* (AUC = 0.77). |
 | ![Feature Importance]({{ site.baseurl }}/assets/img/projects/bilingual-brain-graphs/coef_top_l1.png)| **Feature Importance.** Top predictive regions in somatomotor and salience networks. |
 | ![Functional Graph (Alice)]({{ site.baseurl }}/assets/img/projects/bilingual-brain-graphs/output_16_1.png) | **Functional Graph (Alice).** Nodes = cortical regions, edges = strongest co-fluctuations. |
@@ -78,8 +78,7 @@ Graph-based modeling thus provides an interpretable, data-driven view of how the
 ---
 
 ## Repository
-- **Code:** [bilingual-brain-graphs GitHub](https://github.com/HasnaaElid/bilingual-brain-graphs)  
-- **Paper:** [Final White Paper (PDF)]({{ site.baseurl }}/assets/docs/Bilingual_Brain_Paper.pdf)  
+- **Code:** [bilingual-brain-graphs GitHub](https://github.com/HasnaaElid/bilingual-brain-graphs)   
 - **PPT:** [Slides]({{ site.baseurl }}/assets/docs/Bilingual_Brain_Presentation.pdf)
 
 ---
