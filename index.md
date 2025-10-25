@@ -25,7 +25,7 @@
 - Skilled in **Python, SQL, Spark/PySpark, data visualization, and machine learning**  
 - Passionate about combining **technical problem solving** with **clear reporting and communication**  
 <div class="profile">
-  <img src="{{ site.baseurl }}/assets/img/profile.png" alt="Profile photo of Hasnaa Elidrissi">
+  <!-- <img src="{{ site.baseurl }}/assets/img/profile.png" alt="Profile photo of Hasnaa Elidrissi"> -->
 </div>
 ---
 
