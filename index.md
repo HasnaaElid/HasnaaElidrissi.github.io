@@ -1,15 +1,8 @@
 
 **[Contact](#contact)**
 
-<div class="hero-home">
-  <img src="{{ site.baseurl }}/assets/img/py.jpg" alt="Data Science Banner">
-  <div class="overlay">
-    <h1>Welcome to My Data Science Portfolio</h1>
-    <p>Exploring data, building models, and telling stories that make an impact.</p>
-  </div>
-</div>
-
 <section class="hero">
+  <img src="{{ site.baseurl }}/assets/img/py.jpg" alt="Data Science Banner">
   <div class="hero__overlay">
     <div class="hero__content">
       <h1>Hasnaa Elidrissi</h1>
