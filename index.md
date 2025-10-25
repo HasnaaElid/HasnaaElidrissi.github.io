@@ -2,7 +2,7 @@
 **[Contact](#contact)**
 
 <section class="hero">
-  <img src="{{ site.baseurl }}/assets/img/word.jpg" alt="Data Science Banner">
+  <!-- <img src="{{ site.baseurl }}/assets/img/word.jpg" alt="Data Science Banner"> -->
   <div class="hero__overlay">
     <div class="hero__content">
       <h1>Hasnaa Elidrissi</h1>
