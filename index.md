@@ -34,9 +34,8 @@
 <h2> Featured Projects</h2>
 
 <div class="cards">
-
+<img class="thumb" src="{{ site.baseurl }}/assets/img/shield.png" alt="Fraud detection thumbnail">
   <article class="card" markdown="1">
-    <img class="thumb" src="{{ site.baseurl }}/assets/img/shield.png" alt="Fraud detection thumbnail">
  <h3><a href="projects/fraud-detection">From Victim to Defender: Predictive Analytics for Fraud Detection</a></h3>
   <div class="badges">
     <span class="badge">ML</span>
