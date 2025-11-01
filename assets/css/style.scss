@@ -622,6 +622,11 @@ body::after {
   border-color: rgba(255,255,255,.06);
 }
 
+.hero, .hero-home {
+  height: 220px !important;
+  min-height: 0 !important;
+}
+
 /* Hide the old in-page hero (keep your HTML intact) */
 // .hero-home { display: none; }
 
