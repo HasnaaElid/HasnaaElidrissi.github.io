@@ -36,6 +36,7 @@
 <div class="cards">
 
   <article class="card" markdown="1">
+    <img class="thumb" src="{{ site.baseurl }}/assets/img/projects/fraud-detection/fraud_thumb.jpg" alt="Fraud detection thumbnail">
  <h3><a href="projects/fraud-detection">From Victim to Defender: Predictive Analytics for Fraud Detection</a></h3>
   <div class="badges">
     <span class="badge">ML</span>
