@@ -628,7 +628,7 @@ body::after {
 }
 
 /* Hide the old in-page hero (keep your HTML intact) */
-// .hero-home { display: none; }
+.hero-home { display: none !important; }
 
 // /* === Global site background (behind everything) === */
 // html::before {
