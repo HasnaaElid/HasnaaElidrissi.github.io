@@ -34,9 +34,8 @@
 <h2> Featured Projects</h2>
 
 <div class="cards">
-<img class="thumb" src="{{ site.baseurl }}/assets/img/shield.png" alt="Fraud detection thumbnail">
   <article class="card" markdown="1">
- <h3><a href="projects/fraud-detection">From Victim to Defender: Predictive Analytics for Fraud Detection</a></h3>
+ <h3><a href="projects/fraud-detection">From Victim to Defender: Predictive Analytics for Fraud Detection 🛡️</a></h3>
   <div class="badges">
     <span class="badge">ML</span>
     <span class="badge">Imbalanced Data</span>
@@ -52,7 +51,7 @@
   </article>
 
   <article class="card" markdown="1">
-  <h3><a href="{{ site.baseurl }}/projects/early-warning-nlp">Early Warning NLP for Fraud Signals </a></h3>
+  <h3><a href="{{ site.baseurl }}/projects/early-warning-nlp">Early Warning NLP for Fraud Signals 💭</a></h3>
   <div class="badges">
     <span class="badge">Text Mining</span>
     <span class="badge">Keyword/Topic Clusters</span>
@@ -67,7 +66,7 @@
   </article>
 
   <article class="card" markdown="1">
-  <h3><a href="{{ site.baseurl }}/projects/amazon-sentiment"> Sentiment Analysis of Amazon Reviews </a></h3>
+  <h3><a href="{{ site.baseurl }}/projects/amazon-sentiment"> Sentiment Analysis of Amazon Reviews ⭐</a></h3>
   <div class="badges">
     <span class="badge">NLP</span>
     <span class="badge">Classification</span>
@@ -82,7 +81,7 @@
   </article>
 
   <article class="card" markdown="1">
-  <h3><a href="{{ site.baseurl }}/projects/childcare-affordability"> Childcare Affordability & Workforce Participation </a></h3>
+  <h3><a href="{{ site.baseurl }}/projects/childcare-affordability"> Childcare Affordability & Workforce Participation 📍</a></h3>
   <div class="badges">
     <span class="badge">EDA</span>
     <span class="badge">Data Storytelling</span>
@@ -96,7 +95,7 @@
   </article>
 
   <article class="card" markdown="1">
-  <h3><a href="{{ site.baseurl }}/projects/fraud-aml-architecture"> Real-Time Fraud Detection & AML Architecture</a></h3>
+  <h3><a href="{{ site.baseurl }}/projects/fraud-aml-architecture"> Real-Time Fraud Detection & AML Architecture 🕧</a></h3>
   <div class="badges">
     <span class="badge">Architecture</span>
     <span class="badge">Spark</span>
@@ -111,7 +110,7 @@
   </article>
 
   <article class="card" markdown="1">
-  <h3><a href="{{ site.baseurl }}/projects/bilingual-brain-graphs"> Graph-Based Insights into the Bilingual Brain</a></h3>
+  <h3><a href="{{ site.baseurl }}/projects/bilingual-brain-graphs"> Graph-Based Insights into the Bilingual Brain 🧠</a></h3>
   <div class="badges">
     <span class="badge">Python</span>
     <span class="badge">fMRI</span>
