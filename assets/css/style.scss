@@ -104,7 +104,7 @@ html, body {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("{{ site.baseurl }}/assets/img/portfolio_imag.jpg") center/cover no-repeat;
+  background: url("{{ site.baseurl }}/assets/img/portfolio_image.jpg") center/cover no-repeat;
   filter: brightness(0.35) contrast(1.1);
   z-index: 0;
 }
