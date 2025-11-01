@@ -19,7 +19,7 @@
 
 ---
 
-## 🔹 About Me 
+## About Me 
 - Academic background in **Data Analytics & Data Science**  
 - Professional experience in **fraud detection and risk analytics**  
 - Skilled in **Python, SQL, Spark/PySpark, data visualization, and machine learning**  
@@ -31,7 +31,7 @@
 
 <section class="section tile" id="projects" markdown="1">
   
-<h2>🔹 Featured Projects</h2>
+<h2> Featured Projects</h2>
 
 <div class="cards">
 
@@ -132,7 +132,7 @@
 <section class="section tile" markdown="1">
 
   
-## 🔹 Skills {#skills}
+## Skills {#skills}
 - **Programming & Tools:** Python, SQL, Spark/PySpark, R, Git/GitHub  
 - **Data Analysis:** Data wrangling, exploratory data analysis (EDA), statistical testing 
 - **Machine Learning:** Supervised & unsupervised learning, model evaluation, imbalanced data handling  
@@ -142,7 +142,7 @@
 
 ---
 
-## 🔹 Contact {#contact}
+## Contact {#contact}
 📧 Email: [elidrissihasnaa6@gmail.com](mailto:elidrissihasnaa6@gmail.com)  
 💼 LinkedIn: [www.linkedin.com/in/hasnaa-elidrissi](https://www.linkedin.com/in/hasnaa-elidrissi)  
 💻 GitHub: [github.com/Hasnaaelid](https://github.com/Hasnaaelid)  
