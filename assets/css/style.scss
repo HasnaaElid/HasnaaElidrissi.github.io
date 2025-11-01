@@ -90,22 +90,89 @@ html, body {
 //   opacity: 0.9;
 // }
 /* === Single Hero Image Banner === */
+// .hero-home {
+//   position: relative;
+//   width: 100%;
+//   height: 380px; /* Taller to look cinematic */
+//   overflow: hidden;
+//   border-radius: 12px;
+//   margin-bottom: 2rem;
+//   box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+// }
+
+// .hero-home::before {
+//   content: "";
+//   position: absolute;
+//   inset: 0;
+//   background: url("{{ site.baseurl }}/assets/img/portfolio_image.jpg") center/cover no-repeat;
+//   filter: brightness(0.35) contrast(1.1);
+//   z-index: 0;
+// }
+
+// .hero-home .overlay {
+//   position: relative;
+//   z-index: 1;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+//   height: 100%;
+//   color: #eaf3ff;
+//   text-shadow: 0 3px 8px rgba(0,0,0,0.7);
+// }
+
+// .hero-home h1 {
+//   font-size: 2.4rem;
+//   font-weight: 800;
+//   color: #ffffff;
+//   margin-bottom: .5rem;
+// }
+
+// .hero-home p {
+//   font-size: 1.15rem;
+//   max-width: 700px;
+//   color: #b5daff;
+//   margin: .3rem 0 1rem;
+// }
+
+// .hero-home .btn {
+//   background: linear-gradient(90deg, #66e0ff, #8a7dff);
+//   color: #0e1116;
+//   font-weight: 700;
+//   padding: .6rem 1.4rem;
+//   border-radius: 8px;
+//   border: none;
+// }
+// .hero-home .btn:hover { opacity: 0.9; }
+/* === Single Hero Image Banner (refined version) === */
 .hero-home {
   position: relative;
   width: 100%;
-  height: 380px; /* Taller to look cinematic */
+  height: 260px; /* smaller, more rectangular */
   overflow: hidden;
   border-radius: 12px;
   margin-bottom: 2rem;
   box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 }
 
+/* Add a soft blur + darker overlay for better text readability */
 .hero-home::before {
   content: "";
   position: absolute;
   inset: 0;
   background: url("{{ site.baseurl }}/assets/img/portfolio_image.jpg") center/cover no-repeat;
-  filter: brightness(0.35) contrast(1.1);
+  filter: blur(2px) brightness(0.35) contrast(1.05);
+  transform: scale(1.05); /* slight zoom to hide blur edges */
+  z-index: 0;
+}
+
+/* Optional: an additional gradient for better text contrast */
+.hero-home::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.75));
   z-index: 0;
 }
 
@@ -119,21 +186,21 @@ html, body {
   text-align: center;
   height: 100%;
   color: #eaf3ff;
-  text-shadow: 0 3px 8px rgba(0,0,0,0.7);
+  text-shadow: 0 3px 8px rgba(0,0,0,0.8);
 }
 
 .hero-home h1 {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   font-weight: 800;
+  margin-bottom: .4rem;
   color: #ffffff;
-  margin-bottom: .5rem;
 }
 
 .hero-home p {
-  font-size: 1.15rem;
-  max-width: 700px;
-  color: #b5daff;
-  margin: .3rem 0 1rem;
+  font-size: 1.05rem;
+  max-width: 720px;
+  color: #b8dbff;
+  margin: .25rem 0 .9rem;
 }
 
 .hero-home .btn {
