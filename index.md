@@ -16,15 +16,15 @@
 <section class="section tile" markdown="1">
   
   Hi, I’m **Hasnaa Elidrissi** a **Data Analyst** pursuing my masters in **Data Science**🎓 passionate about solving problems with data.  
-  I specialize in **data analysis, machine learning, big data, and data storytelling** transforming raw data into insights and communicating results with clarity.
+  I specialize in data analysis, machine learning, big data, and data storytelling transforming raw data into insights and communicating results with clarity.
 
 ---
 
 ## About Me 
-- Academic background in **Data Analytics & Data Science**  
-- Professional experience in **fraud detection and risk analytics**  
-- Skilled in **Python, SQL, Spark/PySpark, data visualization, and machine learning**  
-- Passionate about combining **technical problem solving** with **clear reporting and communication**  
+- Academic background in Data Analytics & Data Science  
+- Professional experience in fraud detection and risk analytics  
+- Skilled in Python, SQL, Spark/PySpark, data visualization, and machine learning 
+- Passionate about combining technical problem solving with clear reporting and communication 
 <div class="profile">
   <!-- <img src="{{ site.baseurl }}/assets/img/profile.png" alt="Profile photo of Hasnaa Elidrissi"> -->
 </div>
