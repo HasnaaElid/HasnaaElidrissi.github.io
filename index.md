@@ -139,11 +139,29 @@ Compared full and parameter-efficient fine-tuning (LoRA) of transformer models o
     <li>L1 Logistic Regression: ~0.76 accuracy / 0.77 ROC–AUC (subject-wise CV).</li>
     <li>Interpretable brain-region contributions aligned with bilingual-control theory.</li>
   </ul>
+  </article>
+
+<article class="card" markdown="1">
+<h3><a href="projects/eurosat-landuse">Satellite Land-Use Image Classifier (EuroSAT)</a></h3>
+<div class="badges">
+  <span class="badge">Computer Vision</span>
+  <span class="badge">Transfer Learning</span>
+  <span class="badge">Grad-CAM</span>
+  <span class="badge alt">Explainable AI</span>
+</div>
+Built an interpretable deep-learning model that classifies ten land-use types 
+(Residential, Industrial, Forest, River, etc.) from Sentinel-2 satellite RGB images 
+using ResNet-50 / EfficientNet-B0 transfer learning and Grad-CAM visualization.
+
+**Outcome / Impact**  
+- Achieved **> 90 % accuracy** on balanced EuroSAT dataset.  
+- Highlighted model attention on vegetation, water, and built areas for transparent predictions.  
+- Demonstrated scalable, explainable AI for **environmental monitoring and smart-city planning**.
 </article>
 
 </div>
 </section>
-**Note:** I am including six projects in my portfolio instead of ten (and will be adding). Several earlier course projects were exploratory exercises or small code demonstrations rather than complete, portfolio-ready projects. The ones listed here represent full, end-to-end work that best demonstrates my applied data science skills across analytics, NLP, big data, and data storytelling.
+
 <section class="section tile" markdown="1">
 
   
