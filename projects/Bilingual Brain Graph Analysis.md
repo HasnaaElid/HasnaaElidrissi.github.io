@@ -83,7 +83,7 @@ Graph-based modeling thus provides an interpretable, data-driven view of how the
 
 ## Repository
 - **Code:** [bilingual-brain-graphs GitHub](https://github.com/HasnaaElid/bilingual-brain-graphs)   
-- **PPT:** [Slides]({{ site.baseurl }}/assets/docs/Bilingual_Brain_Presentation.pdf)
+- **PPT:** [Slides]({{ site.baseurl }}/assets/docs/HasnaaElidrissiDCS680Project2Final.pdf)
 
 ---
 
