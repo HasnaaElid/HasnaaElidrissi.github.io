@@ -36,6 +36,21 @@
 
 <div class="cards">
   <article class="card" markdown="1">
+<h3><a href="projects/goemotions-peft">Efficient Fine-Tuning for Emotion Classification</a></h3>
+<div class="badges">
+  <span class="badge">NLP</span>
+  <span class="badge">Transformer</span>
+  <span class="badge">PEFT / LoRA</span>
+  <span class="badge alt">Model Calibration</span>
+</div>
+Compared full and parameter-efficient fine-tuning (LoRA) of transformer models on the GoEmotions dataset to classify 28 nuanced emotions in Reddit comments.
+
+**Outcome / Impact** 
+- Applied temperature scaling to halve Expected Calibration Error (ECE).  
+- Demonstrated efficient, interpretable, and deployable NLP modeling for real-world emotion analytics.
+</article>
+
+  <article class="card" markdown="1">
  <h3><a href="projects/fraud-detection">From Victim to Defender: Predictive Analytics for Fraud Detection </a></h3>
   <div class="badges">
     <span class="badge">ML</span>
