@@ -36,7 +36,7 @@
 
 <div class="cards">
   <article class="card" markdown="1">
-<h3><a href="projects/goemotions-peft">Efficient Fine-Tuning for Emotion Classification</a></h3>
+<h3><a href="projects/Efficient Fine-Tuning for Emotion Classification">Efficient Fine-Tuning for Emotion Classification</a></h3>
 <div class="badges">
   <span class="badge">NLP</span>
   <span class="badge">Transformer</span>
