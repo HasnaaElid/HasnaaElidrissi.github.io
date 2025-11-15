@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Efficient Fine-Tuning for Emotion Classification "
-permalink: /projects/Efficient-Fine-Tuning-for-Emotion-Classification/
+permalink: /projects/Efficient-Fine-Tuning-for-motion-Classification
 ---
 
 [← Back to Home]({{ site.baseurl }}/)
