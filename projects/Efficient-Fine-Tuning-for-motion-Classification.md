@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Efficient Fine-Tuning for Emotion Classification "
+permalink: /projects/Efficient-Fine-Tuning-for-Emotion-Classification/
+---
+
+[← Back to Home]({{ site.baseurl }}/)
+
+
 # Efficient Fine-Tuning for Emotion Classification  
 Python NLP | Transformer Fine-Tuning | Model Calibration  
 
