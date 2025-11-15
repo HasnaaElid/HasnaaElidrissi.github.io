@@ -11,7 +11,7 @@ The analysis quantifies trade-offs between performance, efficiency, and calibrat
 **Source:** Google Research – [GoEmotions](https://github.com/google-research/goemotions)  
 **Samples:** 58k Reddit comments annotated for 28 fine-grained emotions  
 **Labels:** Multi-label (average 1.3 emotions per comment)  
-**Models:** `distilbert-base-uncased`, `roberta-base` (optional variant)  
+**Models:** distilbert-base-uncased,roberta-base (optional variant)  
 **PEFT:** LoRA (r = 8, α = 16, dropout = 0.05)  
 **Tools:** PyTorch, Hugging Face Transformers & PEFT, NumPy, Pandas, Matplotlib  
 **Ethics:** Public Reddit corpus; anonymized and filtered for non-toxic content; educational use only  
@@ -33,18 +33,10 @@ The analysis quantifies trade-offs between performance, efficiency, and calibrat
 ## Results (Highlights)
 
 ### Performance Summary
-| Model | Trainable Params | Micro F1 | Macro F1 | Δ vs Full | Notes |
-|:------|-----------------:|:---------:|:---------:|:----------:|:------|
-| Full Fine-Tuning | |  | |  | Baseline |
-| LoRA (PEFT) |  | | |  | 10× smaller, faster convergence |
-
-### Calibration
-| Model | ECE (Before) | ECE (After Temp Scaling) | Change |
-|:------|--------------:|--------------------------:|-------:|
-| Full FT |  | |  |
-| LoRA | |  | |
+<img width="1377" height="115" alt="image" src="https://github.com/user-attachments/assets/c600b27b-04fb-4f5e-8baf-e5df61d8c17f" />
 
 ### Visuals
+
 | Figure | Description |
 |:-------|:-------------|
 | ![Reliability Curve Full FT](assets/img/full_ft_reliability_after.png) | |
