@@ -1,0 +1,76 @@
+# Efficient Fine-Tuning for Emotion Classification  
+Python NLP | Transformer Fine-Tuning | Model Calibration  
+
+## Summary  
+Using the **GoEmotions** dataset of Reddit comments, this project compares **Full Fine-Tuning** and **Parameter-Efficient Fine-Tuning (PEFT)** via **LoRA adapters** on a multi-label emotion classification task.  
+The analysis quantifies trade-offs between performance, efficiency, and calibration—demonstrating that LoRA achieves near-parity with full fine-tuning while updating less than 10% of parameters.  
+
+---
+
+## Dataset & Setup  
+**Source:** Google Research – [GoEmotions](https://github.com/google-research/goemotions)  
+**Samples:** 58k Reddit comments annotated for 28 fine-grained emotions  
+**Labels:** Multi-label (average 1.3 emotions per comment)  
+**Models:** `distilbert-base-uncased`, `roberta-base` (optional variant)  
+**PEFT:** LoRA (r = 8, α = 16, dropout = 0.05)  
+**Tools:** PyTorch, Hugging Face Transformers & PEFT, NumPy, Pandas, Matplotlib  
+**Ethics:** Public Reddit corpus; anonymized and filtered for non-toxic content; educational use only  
+
+---
+
+## Approach  
+**Pipeline Overview**  
+1. **Data Preprocessing** – Convert raw GoEmotions splits into Parquet format with one-hot encoded labels.  
+2. **Modeling** –  
+   - *Full Fine-Tuning:* All parameters updated.  
+   - *LoRA Fine-Tuning:* Trainable low-rank adapters injected into attention & feed-forward layers.  
+3. **Evaluation Metrics** – Micro-/Macro-F1, per-label precision-recall AUC, Expected Calibration Error (ECE).  
+4. **Calibration** – Per-label temperature scaling and reliability curves (Guo et al., 2017).  
+5. **Explainability** – Per-label threshold analysis and token-level SHAP inspection (optional extension).  
+
+---
+
+## Results (Highlights)
+
+### Performance Summary
+| Model | Trainable Params | Micro F1 | Macro F1 | Δ vs Full | Notes |
+|:------|-----------------:|:---------:|:---------:|:----------:|:------|
+| Full Fine-Tuning | |  | |  | Baseline |
+| LoRA (PEFT) |  | | |  | 10× smaller, faster convergence |
+
+### Calibration
+| Model | ECE (Before) | ECE (After Temp Scaling) | Change |
+|:------|--------------:|--------------------------:|-------:|
+| Full FT |  | |  |
+| LoRA | |  | |
+
+### Visuals
+| Figure | Description |
+|:-------|:-------------|
+| ![Reliability Curve Full FT](assets/img/full_ft_reliability_after.png) | |
+| ![Reliability Curve LoRA](assets/img/peft_lora_reliability_after.png) | |
+| ![Performance Comparison](assets/img/peft_vs_full_bar.png) |  |
+
+---
+
+## Interpretation  
+
+
+---
+
+## Repository  
+**Code:** [goemotions-peft](https://github.com/YourUsername/goemotions-peft)  
+**Slides:** [Presentation (PDF)](assets/docs/SanaEssafi_DSC680_Project3.pdf)  
+**Dataset:** [GoEmotions on Hugging Face](https://huggingface.co/datasets/go_emotions)  
+
+---
+
+## References  
+- Hu et al. (2021). *LoRA: Low-Rank Adaptation of Large Language Models.* arXiv:2106.09685  
+- Guo et al. (2017). *On Calibration of Modern Neural Networks.* ICML 2017.  
+- Google Research (2020). *GoEmotions: A Dataset of Fine-Grained Emotions.*  
+- Hugging Face Documentation (2024). *Transformers & PEFT Libraries.*
+
+---
+
+> “Efficient fine-tuning isn’t just faster—it’s how we make large models practical, interpretable, and sustainable.”  
