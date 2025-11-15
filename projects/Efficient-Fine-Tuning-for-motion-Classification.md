@@ -17,7 +17,7 @@ The analysis quantifies trade-offs between performance, efficiency, and calibrat
 ---
 
 ## Dataset & Setup  
-**Source:** Google Research – [GoEmotions](https://github.com/google-research/goemotions)  
+**Source:** Google Research – [GoEmotions]([https://github.com/google-research/goemotions](https://research.google/blog/goemotions-a-dataset-for-fine-grained-emotion-classification/))  
 **Samples:** 58k Reddit comments annotated for 28 fine-grained emotions  
 **Labels:** Multi-label (average 1.3 emotions per comment)  
 **Models:** distilbert-base-uncased,roberta-base (optional variant)  
