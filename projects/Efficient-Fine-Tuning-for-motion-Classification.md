@@ -37,11 +37,9 @@ The analysis quantifies trade-offs between performance, efficiency, and calibrat
 
 ### Visuals
 
-| Figure | Description |
-|:-------|:-------------|
-| ![Reliability Curve Full FT](assets/img/full_ft_reliability_after.png) | |
-| ![Reliability Curve LoRA](assets/img/peft_lora_reliability_after.png) | |
-| ![Performance Comparison](assets/img/peft_vs_full_bar.png) |  |
+![Reliability Curve Full FT](assets/img/f1_vs_params.png) 
+![Reliability Curve LoRA](assets/img/macro_f1_vs_params.png) 
+![Performance Comparison](assets/img/pr_auc_topk_full_vs_peft.png) 
 
 ---
 
