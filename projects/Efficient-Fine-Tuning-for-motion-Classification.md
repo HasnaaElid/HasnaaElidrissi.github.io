@@ -60,7 +60,7 @@ The analysis quantifies trade-offs between performance, efficiency, and calibrat
 ---
 
 ## Repository  
-**Code:** [goemotions-peft](https://github.com/YourUsername/goemotions-peft)  
+**Code:** [goemotions-peft](https://github.com/HasnaaElid/Efficient-Fine-Tuning-for-Emotion-Classification) 
 **Slides:** [Presentation (PDF)](assets/docs/SanaEssafi_DSC680_Project3.pdf)  
 **Dataset:** [GoEmotions on Hugging Face](https://huggingface.co/datasets/go_emotions)  
 
