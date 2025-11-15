@@ -12,7 +12,7 @@ Python NLP | Transformer Fine-Tuning | Model Calibration
 
 ## Summary  
 Using the **GoEmotions** dataset of Reddit comments, this project compares **Full Fine-Tuning** and **Parameter-Efficient Fine-Tuning (PEFT)** via **LoRA adapters** on a multi-label emotion classification task.  
-The analysis quantifies trade-offs between performance, efficiency, and calibration—demonstrating that LoRA achieves near-parity with full fine-tuning while updating less than 10% of parameters.  
+The analysis quantifies trade-offs between performance, efficiency, and calibration demonstrating that LoRA achieves near-parity with full fine-tuning while updating less than 10% of parameters.  
 
 ---
 
@@ -54,14 +54,21 @@ The analysis quantifies trade-offs between performance, efficiency, and calibrat
 
 ---
 
-## Interpretation  
+## Interpretation 
 
+The explainability results show that both models rely on meaningful emotional cues rather than noise or filler words.
+Influential tokens consistently align with human intuition, with positive or negative emotion words driving predictions appropriately.
+Token masking and SHAP-style analyses reveal stable, interpretable patterns across examples.
+The LoRA model highlights nearly the same key tokens as the full fine-tuned model, indicating it preserves core decision logic.
+Overall, the compact model remains trustworthy and behaviorally aligned while using far fewer trainable parameters.
 
 ---
 
 ## Repository  
 **Code:** [goemotions-peft](https://github.com/HasnaaElid/Efficient-Fine-Tuning-for-Emotion-Classification) 
-**Slides:** [Presentation (PDF)](assets/docs/SanaEssafi_DSC680_Project3.pdf)  
+
+**Slides:** [Presentation (PDF)](assets/docs/SanaEssafi_DSC680_Project3.pdf) 
+
 **Dataset:** [GoEmotions on Hugging Face](https://huggingface.co/datasets/go_emotions)  
 
 ---
