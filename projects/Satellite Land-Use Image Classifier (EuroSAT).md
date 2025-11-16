@@ -12,7 +12,6 @@ permalink: /projects/eurosat-landuse/
   <span class="badge">Python</span>
   <span class="badge">Computer Vision</span>
   <span class="badge">Transfer Learning</span>
-  <span class="badge alt">Explainable AI</span>
 </div>
 
 **Summary.**  
