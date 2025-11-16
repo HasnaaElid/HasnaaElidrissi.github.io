@@ -97,6 +97,24 @@ Compared full and parameter-efficient fine-tuning (LoRA) of transformer models o
   </article>
 
   <article class="card" markdown="1">
+<h3><a href="{{ site.baseurl }}/projects/Urban Emotion Geography of NYC 311 Complaints/">Urban Emotion Geography: Mapping NYC’s 311 Mood</a></h3>
+
+<div class="badges">
+  <span class="badge">R</span>
+  <span class="badge">NLP</span>
+  <span class="badge">Sentiment Analysis</span>
+  <span class="badge alt">Geospatial Analytics</span>
+</div>
+
+Analyzed NYC 311 complaints to map eight NRC emotion categories across boroughs, revealing unique “emotional fingerprints” through radar charts, heatmaps, and a borough-prediction model.
+
+**Outcome / Impact**  
+- Built an interpretable multinomial classifier using only emotional features.  
+- Created portfolio-grade visualizations highlighting emotional inequality and borough-specific sentiment patterns.
+</article>
+
+
+  <article class="card" markdown="1">
   <h3><a href="{{ site.baseurl }}/projects/childcare-affordability"> Childcare Affordability & Workforce Participation</a></h3>
   <div class="badges">
     <span class="badge">EDA</span>
