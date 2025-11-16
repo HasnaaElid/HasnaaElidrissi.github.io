@@ -97,7 +97,7 @@ Compared full and parameter-efficient fine-tuning (LoRA) of transformer models o
   </article>
 
   <article class="card" markdown="1">
-<h3><a href="{{ site.baseurl }}/projects/Urban Emotion Geography of NYC 311 Complaints/">Urban Emotion Geography: Mapping NYC’s 311 Mood</a></h3>
+<h3><a href="{{ site.baseurl }}/projects/nyc-urban-emotion/">Urban Emotion Geography: Mapping NYC’s 311 Mood</a></h3>
 
 <div class="badges">
   <span class="badge">R</span>
