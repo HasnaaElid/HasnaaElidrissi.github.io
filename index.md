@@ -165,7 +165,7 @@ Analyzed NYC 311 complaints to map eight NRC emotion categories across boroughs,
   <span class="badge">Computer Vision</span>
   <span class="badge">Transfer Learning</span>
   <span class="badge">Grad-CAM</span>
-  <span class="badge alt">Explainable AI</span>
+
 </div>
 Built an interpretable deep-learning model that classifies ten land-use types 
 (Residential, Industrial, Forest, River, etc.) from Sentinel-2 satellite RGB images 
@@ -174,7 +174,7 @@ using ResNet-50 / EfficientNet-B0 transfer learning and Grad-CAM visualization.
 **Outcome / Impact**  
 - Achieved **> 90 % accuracy** on balanced EuroSAT dataset.  
 - Highlighted model attention on vegetation, water, and built areas for transparent predictions.  
-- Demonstrated scalable, explainable AI for **environmental monitoring and smart-city planning**.
+- Demonstrated scalable, explainable outcome for **environmental monitoring and smart-city planning**.
 </article>
 
 </div>
