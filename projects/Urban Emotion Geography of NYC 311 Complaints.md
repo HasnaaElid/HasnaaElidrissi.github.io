@@ -55,10 +55,9 @@ Computed for each complaint and then for each borough:
 - total tokens  
 - positive / negative sentiment  
 - 8 basic emotions  
-- emotion share = proportion of tokens labeled with that emotion  
+- emotion share: proportion of tokens labeled with that emotion  
 
 ### **3. Visualization**
-Portfolio-grade charts include:
 - Borough-level emotion fingerprints (radar plots)  
 - Emotional Inequality Index across boroughs  
 - Heatmap of borough prediction confusion matrix  
