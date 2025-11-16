@@ -60,11 +60,11 @@ Computed for each complaint and then for each borough:
 ### **3. Visualization**
 ![Borough-level emotion fingerprints]({{ site.baseurl }}/assets/img/emotion_fingerprints_borough.png)
   
-![Emotional Inequality Index across boroughs]{{ site.baseurl }}/assets/img/emotional_inequality_index.png)
+![Emotional Inequality Index across boroughs]({{ site.baseurl }}/assets/img/emotional_inequality_index.png)
 
-![Heatmap of borough prediction confusion matrix]{{ site.baseurl }}/assets/img/borough_model_confusion_matrix.png)
+![Heatmap of borough prediction confusion matrix]({{ site.baseurl }}/assets/img/borough_model_confusion_matrix.png)
 
-![Top predictive emotion coefficients (from the multinomial model)]{{ site.baseurl }}/assets/img/borough_model_top_emotion_coefficients.png)
+![Top predictive emotion coefficients (from the multinomial model)]({{ site.baseurl }}/assets/img/borough_model_top_emotion_coefficients.png)
 
 ### **4. Modeling**
 A multinomial logistic regression was trained to answer:
