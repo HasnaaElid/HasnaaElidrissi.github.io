@@ -129,6 +129,23 @@ Analyzed NYC 311 complaints to map eight NRC emotion categories across boroughs,
   </article>
 
   <article class="card" markdown="1">
+<h3><a href="{{ site.baseurl }}/projects/data-quality-radar/">Data Quality Radar (PySpark)</a></h3>
+
+<div class="badges">
+  <span class="badge">PySpark</span>
+  <span class="badge">Big Data</span>
+  <span class="badge">Data Quality</span>
+  <span class="badge alt">Automation</span>
+</div>
+
+Spark-based automated data-quality monitor simulating daily snapshots and detecting schema drift, missingness spikes, and numeric distribution shifts.
+
+**Outcome / Impact**  
+- Built a scalable PySpark profiling pipeline with automated drift detection.  
+- Showcases engineering depth beyond modeling—ideal for fraud, AML, and data platforms roles.
+</article>
+
+  <article class="card" markdown="1">
   <h3><a href="{{ site.baseurl }}/projects/fraud-aml-architecture"> Real-Time Fraud Detection & AML Architecture</a></h3>
   <div class="badges">
     <span class="badge">Architecture</span>
