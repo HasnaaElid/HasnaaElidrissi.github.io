@@ -17,8 +17,8 @@ permalink: /projects/nyc-urban-emotion/
 </div>
 
 **Summary.**  
-This project transforms NYC 311 complaints into a city-wide emotional map, showing how frustration, trust, anticipation, and other emotions vary across boroughs.  
-Using tidyverse workflows, the NRC Emotion Lexicon, and a multinomial model, the analysis exposes distinct “emotional fingerprints” for each borough and evaluates how well emotion alone predicts geographic location.
+This project turns one month of NYC 311 complaints into a city-wide emotional map.  
+Using the NRC Emotion Lexicon and a multinomial model in R, I quantify how often residents express anger, trust, anticipation, and other emotions, then show how those patterns shift across boroughs. The result is an interpretable view of “how the city feels” and whether emotional tone alone can predict where a complaint came from.
 
 ---
 
@@ -32,55 +32,82 @@ Using tidyverse workflows, the NRC Emotion Lexicon, and a multinomial model, the
 
 ---
 
-## Project Goals
-- Quantify the emotional landscape of NYC 311 complaints  
-- Compare emotional patterns across boroughs  
-- Develop interpretable visualizations for storytelling  
-- Train a multinomial model predicting borough from emotion shares  
-- Introduce a new metric: **Emotional Inequality Index (EII)**  
-- Visualize emotional “fingerprints” for each borough
+## Approach in Three Steps
+
+1. **Emotion scoring.**  
+   - Tokenized complaint text and joined tokens to the NRC lexicon.  
+   - Calculated per-complaint emotion counts, shares, and a simple sentiment score.
+
+2. **Aggregation by borough.**  
+   - Rolled emotion shares up to the borough level.  
+   - Created “emotion fingerprints” to summarize each borough’s typical mix.
+
+3. **Multinomial modeling.**  
+   - Trained a multinomial logistic regression to predict borough using only emotion shares.  
+   - Inspected coefficients to see which emotions *push* a complaint toward each borough.
 
 ---
 
-## Workflow
 
-### **1. Data Cleaning & Tokenization**
-- Lowercasing, whitespace cleanup  
-- Tokenization with tidytext  
-- Merging each token with NRC emotion categories  
-- Counting emotion-tagged tokens per complaint  
+## Visual Story
 
-### **2. Emotion Aggregation**
-Computed for each complaint and then for each borough:
-- total tokens  
-- positive / negative sentiment  
-- 8 basic emotions  
-- emotion share: proportion of tokens labeled with that emotion  
+### 1. Emotion fingerprints by borough
 
-### **3. Visualization**
+Each radar chart below shows the share of emotion-tagged tokens for one borough.
+
 ![Borough-level emotion fingerprints]({{ site.baseurl }}/assets/img/emotion_fingerprints_borough.png)
+
+**Takeaway.**  
+Anticipation dominates 311 complaints citywide (people are mostly asking for action), but secondary emotions differ. Brooklyn leans more negative, Manhattan shows relatively more trust, Queens has higher anger/disgust, and Staten Island’s smaller volume skews toward anticipation and trust.
+
+---
+
+### 2. Emotional Inequality Index (EII)
+
+To see which emotions are geographically uneven, I defined an **Emotional Inequality Index**: variance of borough shares, normalized by the squared mean.
   
 ![Emotional Inequality Index across boroughs]({{ site.baseurl }}/assets/img/emotional_inequality_index.png)
 
+**Takeaway.**  
+Surprise, anticipation, and disgust are the most unequal emotions across boroughs. Sadness is rare and fairly flat everywhere. High-EII emotions are good candidates for monitoring localized frustration or service gaps.
+
+---
+
+### 3. Can emotions predict borough?
+
+I trained a multinomial model on emotion shares + sentiment and evaluated it with a confusion matrix.
+
 ![Heatmap of borough prediction confusion matrix]({{ site.baseurl }}/assets/img/borough_model_confusion_matrix.png)
+
+**Takeaway.**  
+The model does noticeably better than random, especially for high-volume boroughs. Most errors are between Manhattan, Brooklyn, and Queens—places that share similar complaint language. Emotions alone don’t give exact location, but they carry real geographic signal.
+
+---
+### 4. What drives the model?
+
+To keep things interpretable, I plotted the strongest positive/negative coefficients per borough.
 
 ![Top predictive emotion coefficients (from the multinomial model)]({{ site.baseurl }}/assets/img/borough_model_top_emotion_coefficients.png)
 
-### **4. Modeling**
-A multinomial logistic regression was trained to answer:
-> *Can we guess which borough a complaint came from based only on its emotional profile?*
+**Takeaway.**  
+- Higher anticipation and trust push complaints toward Manhattan.  
+- Strong negative tone pushes away from Manhattan and toward Brooklyn/Queens.  
+- Staten Island is influenced mostly by anticipation/trust due to its smaller, cleaner signal.
 
-Outputs include:
-- Confusion matrix  
-- Per-emotion coefficients  
-- Borough-specific emotional drivers  
+Together, these plots act as an “emotional fingerprint” not just descriptively, but from the model’s point of view.
 
 ---
+
+## What I Learned
+
+- How to build an end-to-end **text mining pipeline in R**: cleaning, tokenization, emotion tagging, aggregation.  
+- How to design **interpretable models** where coefficients tell a story instead of hiding inside a black box.  
+- How to create a custom metric (EII) to capture **geographic inequality in emotions**.  
+- How to turn technical outputs into **visuals and language that non-technical stakeholders can understand**.
+
+---
+
 ## Repository
 - **Code:** 
 
-## Key Findings
-
-### **Distinct Emotional Signatures**
-Each borough expresses a unique emotional fingerprint
 
